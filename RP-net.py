@@ -232,8 +232,8 @@ def non_max_suppression(boxes, confidence_scores, nBox, overlapThresh=0.7):
 if __name__ == '__main__':
 
 
-    experiment = Experiment(api_key="",
-                        project_name="", workspace="")
+    experiment = Experiment(api_key="dXQNQCU6HrhcPCUxPIhijEUJG",
+                        project_name="general", workspace="jysong")
 
     #debt read ground truth labels
     classifier = Refinement(k=7)
@@ -256,6 +256,8 @@ if __name__ == '__main__':
 
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cpu')
+
     classifier.to(device)
     
     # num_batches = int((files.shape[0])/config.batchsize)
