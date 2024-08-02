@@ -44,6 +44,22 @@ class RPN(nn.Module):
         self.theta = torch.tensor([[0]],dtype=torch.float32).cuda()
         for ind in range(1):
             rot = torch.tensor([[torch.cos(self.theta[ind]), 0, torch.sin(self.theta[ind])], [-torch.sin(self.theta[ind]), 0, torch.cos(self.theta[ind])], [0 ,1 ,0]]).cuda()
+            
+            # Debugging: Print shapes to ensure compatibility
+            print(f"self.centers shape: {self.centers.shape}")
+            print(f"self.centers: {self.centers}")
+            print(f"rot shape: {rot.shape}")
+            print(f"rot: {rot}")
+            print()
+            print(f"current ind {ind}")
+            print(f"self.centers: {self.centers.device}, rot: {rot.device}")
+
+            
+            # Ensure tensors are on the same device
+            self.centers = self.centers.to('cuda')
+            rot = rot.to('cuda')
+
+
             if ind ==0:
                 self.new_centers = torch.matmul(self.centers,rot)
             else:
