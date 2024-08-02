@@ -1,42 +1,56 @@
-FROM nvcr.io/nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:11.3.1-cudnn8-devel-ubuntu20.04
 
-RUN apt-get update && yes|apt-get upgrade
+# Set up environment variables for non-interactive installations
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update and install necessary packages
+RUN apt-get update && yes | apt-get upgrade
 RUN apt-get install -y wget pkg-config
 
-# RUN apt update
-# RUN apt --fix-broken install
-# RUN #!/bin/bash && source ~/.bashrc
-#RUN conda update --all
-
-ARG DEBIAN_FRONTEND=noninteractive
-
+# Additional package installations
 ENV APT_INSTALL="apt-get install -y --no-install-recommends"
 
 RUN apt-get update && $APT_INSTALL \
-         build-essential \
-         cmake \
-         git \
-         openssh-client \
-         curl \
-         vim-gtk \
-         tmux \
-         zip \
-         unzip \
-         ca-certificates \
-         libjpeg-dev \
-         libopenexr-dev \
-         libpng-dev \
-         sudo 
+    build-essential \
+    cmake \
+    git \
+    openssh-client \
+    curl \
+    vim-gtk \
+    tmux \
+    zip \
+    unzip \
+    ca-certificates \
+    libjpeg-dev \
+    libopenexr-dev \
+    libpng-dev \
+    sudo
 
-ENV PIP3I="python3 -m pip install"
+# Python and pip installations
+RUN $APT_INSTALL python3 python3-pip python3-dev python3-tk python3-pil.imagetk python3-setuptools
 
-RUN $APT_INSTALL \
-    python3 python3-pip python3-dev python3-tk python3-pil.imagetk python3-setuptools
+# Install Miniconda
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3-latest-Linux-x86_64.sh && \
+    bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda && \
+    rm Miniconda3-latest-Linux-x86_64.sh
 
-RUN python3 -m pip install torch==1.4.0 torchvision==0.5.0
+# Set conda path
+ENV PATH=/opt/conda/bin:$PATH
 
-RUN /bin/bash -c "python3 -m pip install --upgrade pip && \
-    python3 -m pip install \
+# Initialize conda and create environment
+RUN /opt/conda/bin/conda init bash && \
+    /bin/bash -c "source /opt/conda/etc/profile.d/conda.sh && conda create -y --name myenv python=3.9"
+
+# Activate conda environment and install PyTorch
+RUN /bin/bash -c "source /opt/conda/etc/profile.d/conda.sh && \
+    conda activate myenv && \
+    conda install -y pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch"
+
+# Upgrade pip and install additional Python packages
+RUN /bin/bash -c "source /opt/conda/etc/profile.d/conda.sh && \
+    conda activate myenv && \
+    python -m pip install --upgrade pip && \
+    python -m pip install \
     opencv-python \
     scikit-image \
     matplotlib \
@@ -44,8 +58,15 @@ RUN /bin/bash -c "python3 -m pip install --upgrade pip && \
     black \
     isort \
     comet_ml \
-    sklearn \
-    pandas \ 
+    scikit-learn \
+    pandas \
     transforms3d"
 
+# Copy the build and install script into the image
+# COPY build_and_install.sh /pointillism/build_and_install.sh
+
+# Ensure the build and install script has executable permissions
+# RUN chmod +x /pointillism/build_and_install.sh
+
+# Set the entry point to run the build and install script
 ENTRYPOINT ["/pointillism/build_and_install.sh"]
