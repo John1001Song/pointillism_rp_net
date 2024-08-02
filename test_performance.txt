@@ -1,0 +1,2168 @@
+Total parameters: 2057291
+Total trainable parameters: 2057291
+start epoch
+................................................................total epoch time : 8.336987495422363 seconds
+Epoch 1 training completed: total_loss: 1.312381 | total_rpn_loss: 1.053047
+mAP: 0.13294621194881023
+0.4: 0.19469231987718918 0.3: 0.27051940141312125 0.2: 0.36831509502024695 0.1: 0.48831919420424424 0.01: 0.6131396803959004
+max mAP 0.0
+Epoch: 0 Recall: 1.0
+Epoch 1 evaluation completed: total_loss: 12.226050 | mIoU: 0.322212| mIoU_2d: 0.452884 | total_eval_time: 5.637555
+start epoch
+................................................................total epoch time : 7.192882299423218 seconds
+Epoch 2 training completed: total_loss: 1.129872 | total_rpn_loss: 0.927575
+mAP: 0.14951203711428976
+0.4: 0.23259787469116466 0.3: 0.31564816323845774 0.2: 0.438432858560535 0.1: 0.5803019099757334 0.01: 0.6761608207239264
+max mAP 0.13294621194881023
+Epoch: 1 Recall: 0.9714285714285714
+Epoch 2 evaluation completed: total_loss: 11.716019 | mIoU: 0.356226| mIoU_2d: 0.500568 | total_eval_time: 5.707406
+start epoch
+................................................................total epoch time : 7.299468278884888 seconds
+Epoch 3 training completed: total_loss: 1.067682 | total_rpn_loss: 0.881498
+mAP: 0.15599137815400768
+0.4: 0.22842770228026751 0.3: 0.32066922169756384 0.2: 0.44848439016775976 0.1: 0.6136392921368043 0.01: 0.7142572275121971
+max mAP 0.14951203711428976
+Epoch: 2 Recall: 0.8166666666666667
+Epoch 3 evaluation completed: total_loss: 11.595784 | mIoU: 0.375562| mIoU_2d: 0.509024 | total_eval_time: 5.655469
+start epoch
+................................................................total epoch time : 7.368934392929077 seconds
+Epoch 4 training completed: total_loss: 1.028595 | total_rpn_loss: 0.856661
+mAP: 0.20769148078837163
+0.4: 0.3044691901382823 0.3: 0.40587014363414886 0.2: 0.546438045241634 0.1: 0.6651953213925424 0.01: 0.764370232279295
+max mAP 0.15599137815400768
+Epoch: 3 Recall: 1.0
+Epoch 4 evaluation completed: total_loss: 11.126398 | mIoU: 0.391458| mIoU_2d: 0.540627 | total_eval_time: 5.700105
+start epoch
+................................................................total epoch time : 7.35125470161438 seconds
+Epoch 5 training completed: total_loss: 0.994347 | total_rpn_loss: 0.833376
+mAP: 0.2132398890725475
+0.4: 0.317441933040966 0.3: 0.42146631477157087 0.2: 0.5722403642674893 0.1: 0.6825109711539868 0.01: 0.7715808395990563
+max mAP 0.20769148078837163
+Epoch: 4 Recall: 0.9428571428571428
+Epoch 5 evaluation completed: total_loss: 11.057447 | mIoU: 0.413181| mIoU_2d: 0.561957 | total_eval_time: 5.644722
+start epoch
+................................................................total epoch time : 7.148989915847778 seconds
+Epoch 6 training completed: total_loss: 0.975615 | total_rpn_loss: 0.818859
+mAP: 0.19291088318661528
+0.4: 0.2948365261527717 0.3: 0.4202982256491242 0.2: 0.5702241634151494 0.1: 0.6690092854394077 0.01: 0.7343872002479478
+max mAP 0.2132398890725475
+Epoch 6 evaluation completed: total_loss: 11.297085 | mIoU: 0.422195| mIoU_2d: 0.567877 | total_eval_time: 5.801720
+start epoch
+................................................................total epoch time : 7.467890739440918 seconds
+Epoch 7 training completed: total_loss: 0.957392 | total_rpn_loss: 0.808335
+mAP: 0.16448162018959153
+0.4: 0.272250462460552 0.3: 0.3885404767978666 0.2: 0.5397292891607426 0.1: 0.6910172692280199 0.01: 0.7627195977301507
+max mAP 0.2132398890725475
+Epoch 7 evaluation completed: total_loss: 11.201948 | mIoU: 0.410832| mIoU_2d: 0.556179 | total_eval_time: 5.676020
+start epoch
+................................................................total epoch time : 7.319202184677124 seconds
+Epoch 8 training completed: total_loss: 0.947767 | total_rpn_loss: 0.802670
+mAP: 0.22519953826093642
+0.4: 0.31953925550488355 0.3: 0.4377598476079425 0.2: 0.5825126133989921 0.1: 0.6961777970604528 0.01: 0.7520228401041033
+max mAP 0.2132398890725475
+Epoch: 7 Recall: 0.9814814814814815
+Epoch 8 evaluation completed: total_loss: 11.200441 | mIoU: 0.416229| mIoU_2d: 0.563336 | total_eval_time: 5.820397
+start epoch
+................................................................total epoch time : 7.166660308837891 seconds
+Epoch 9 training completed: total_loss: 0.928267 | total_rpn_loss: 0.789423
+mAP: 0.21875156962637957
+0.4: 0.31197126251794793 0.3: 0.44760234595937287 0.2: 0.6135602086038336 0.1: 0.6989457979991601 0.01: 0.7593605791824128
+max mAP 0.22519953826093642
+Epoch 9 evaluation completed: total_loss: 11.552497 | mIoU: 0.433608| mIoU_2d: 0.580833 | total_eval_time: 5.676560
+start epoch
+................................................................total epoch time : 7.754298210144043 seconds
+Epoch 10 training completed: total_loss: 0.914652 | total_rpn_loss: 0.782622
+mAP: 0.2039152677983055
+0.4: 0.33217740367421084 0.3: 0.4452147376304046 0.2: 0.5995150310627704 0.1: 0.7055504245760732 0.01: 0.7789075459749927
+max mAP 0.22519953826093642
+Epoch 10 evaluation completed: total_loss: 11.909163 | mIoU: 0.418906| mIoU_2d: 0.555154 | total_eval_time: 5.555742
+start epoch
+................................................................total epoch time : 6.990795373916626 seconds
+Epoch 11 training completed: total_loss: 0.909088 | total_rpn_loss: 0.777298
+mAP: 0.170144781340835
+0.4: 0.2722038937423212 0.3: 0.3934718642812795 0.2: 0.5400482338122478 0.1: 0.6665929653961533 0.01: 0.7205652601697624
+max mAP 0.22519953826093642
+Epoch 11 evaluation completed: total_loss: 11.555011 | mIoU: 0.441916| mIoU_2d: 0.580752 | total_eval_time: 5.480934
+start epoch
+................................................................total epoch time : 6.974361181259155 seconds
+Epoch 12 training completed: total_loss: 0.899372 | total_rpn_loss: 0.771630
+mAP: 0.19384568176458603
+0.4: 0.3200859525612618 0.3: 0.4485797459653183 0.2: 0.6044492201785197 0.1: 0.712721665556031 0.01: 0.7755753489702387
+max mAP 0.22519953826093642
+Epoch 12 evaluation completed: total_loss: 11.522587 | mIoU: 0.440803| mIoU_2d: 0.575617 | total_eval_time: 5.475953
+start epoch
+................................................................total epoch time : 7.068979501724243 seconds
+Epoch 13 training completed: total_loss: 0.892633 | total_rpn_loss: 0.770559
+mAP: 0.2139387747006074
+0.4: 0.30325518998175477 0.3: 0.41495187986427334 0.2: 0.5993180690982297 0.1: 0.6922746538426429 0.01: 0.7518862048866061
+max mAP 0.22519953826093642
+Epoch 13 evaluation completed: total_loss: 11.466910 | mIoU: 0.447096| mIoU_2d: 0.580778 | total_eval_time: 5.454611
+start epoch
+................................................................total epoch time : 6.94706130027771 seconds
+Epoch 14 training completed: total_loss: 0.879861 | total_rpn_loss: 0.761337
+mAP: 0.2307660652960305
+0.4: 0.3537339923637196 0.3: 0.4843807469456978 0.2: 0.6227506166220204 0.1: 0.7440742182724233 0.01: 0.7944087342060119
+max mAP 0.22519953826093642
+Epoch: 13 Recall: 0.98
+Epoch 14 evaluation completed: total_loss: 11.222327 | mIoU: 0.453593| mIoU_2d: 0.597999 | total_eval_time: 5.482794
+start epoch
+................................................................total epoch time : 7.022075176239014 seconds
+Epoch 15 training completed: total_loss: 0.878820 | total_rpn_loss: 0.761066
+mAP: 0.23719391097084164
+0.4: 0.34187328808715767 0.3: 0.4607147870448855 0.2: 0.6021835685606008 0.1: 0.7203573800283184 0.01: 0.795008728117225
+max mAP 0.2307660652960305
+Epoch: 14 Recall: 0.9625
+Epoch 15 evaluation completed: total_loss: 11.344690 | mIoU: 0.469830| mIoU_2d: 0.602676 | total_eval_time: 5.484405
+start epoch
+................................................................total epoch time : 7.029077053070068 seconds
+Epoch 16 training completed: total_loss: 0.866876 | total_rpn_loss: 0.754569
+mAP: 0.21973009582851105
+0.4: 0.3329171766395662 0.3: 0.45472023928427047 0.2: 0.588765745500815 0.1: 0.7054829108503278 0.01: 0.7619660312046487
+max mAP 0.23719391097084164
+Epoch 16 evaluation completed: total_loss: 11.265521 | mIoU: 0.461493| mIoU_2d: 0.598714 | total_eval_time: 5.554098
+start epoch
+................................................................total epoch time : 7.04946231842041 seconds
+Epoch 17 training completed: total_loss: 0.864563 | total_rpn_loss: 0.753865
+mAP: 0.24509478539004423
+0.4: 0.35336723719303015 0.3: 0.4658810010789661 0.2: 0.6093526229407075 0.1: 0.7056408858396944 0.01: 0.7741473270118768
+max mAP 0.23719391097084164
+Epoch: 16 Recall: 0.9714285714285714
+Epoch 17 evaluation completed: total_loss: 11.421236 | mIoU: 0.463464| mIoU_2d: 0.595689 | total_eval_time: 5.489395
+start epoch
+................................................................total epoch time : 7.020347356796265 seconds
+Epoch 18 training completed: total_loss: 0.861288 | total_rpn_loss: 0.752673
+mAP: 0.2373377695234487
+0.4: 0.3686402032441115 0.3: 0.4943716947680669 0.2: 0.6231293857664586 0.1: 0.7217560629086751 0.01: 0.7833516848155447
+max mAP 0.24509478539004423
+Epoch 18 evaluation completed: total_loss: 11.197690 | mIoU: 0.469046| mIoU_2d: 0.600792 | total_eval_time: 5.462127
+start epoch
+................................................................total epoch time : 7.022017478942871 seconds
+Epoch 19 training completed: total_loss: 0.858172 | total_rpn_loss: 0.748050
+mAP: 0.23852908611657878
+0.4: 0.3446249373800927 0.3: 0.47770837360669893 0.2: 0.6305200601484915 0.1: 0.7317565437694148 0.01: 0.7820182981882126
+max mAP 0.24509478539004423
+Epoch 19 evaluation completed: total_loss: 11.672413 | mIoU: 0.456354| mIoU_2d: 0.587807 | total_eval_time: 5.484801
+start epoch
+................................................................total epoch time : 7.015497446060181 seconds
+Epoch 20 training completed: total_loss: 0.852426 | total_rpn_loss: 0.745834
+mAP: 0.3110792679004245
+0.4: 0.39928517890312804 0.3: 0.5159126569961201 0.2: 0.618162309217612 0.1: 0.7399640307817054 0.01: 0.7970524426265393
+max mAP 0.24509478539004423
+Epoch: 19 Recall: 0.95
+Epoch 20 evaluation completed: total_loss: 11.438933 | mIoU: 0.483969| mIoU_2d: 0.610920 | total_eval_time: 5.481904
+start epoch
+................................................................total epoch time : 7.0888683795928955 seconds
+Epoch 21 training completed: total_loss: 0.848123 | total_rpn_loss: 0.746374
+mAP: 0.2072710866979656
+0.4: 0.27200655368226406 0.3: 0.39279791262234875 0.2: 0.5503417205489888 0.1: 0.6682640796154874 0.01: 0.7442594573393302
+max mAP 0.3110792679004245
+Epoch 21 evaluation completed: total_loss: 11.713927 | mIoU: 0.455240| mIoU_2d: 0.576476 | total_eval_time: 5.496712
+start epoch
+................................................................total epoch time : 6.866059064865112 seconds
+Epoch 22 training completed: total_loss: 0.840085 | total_rpn_loss: 0.740546
+mAP: 0.2441980310689967
+0.4: 0.37331321349235247 0.3: 0.45748280760329313 0.2: 0.598452047868214 0.1: 0.7346674590280962 0.01: 0.775351509673402
+max mAP 0.3110792679004245
+Epoch 22 evaluation completed: total_loss: 11.467910 | mIoU: 0.468279| mIoU_2d: 0.598227 | total_eval_time: 5.564921
+start epoch
+................................................................total epoch time : 6.866022109985352 seconds
+Epoch 23 training completed: total_loss: 0.840795 | total_rpn_loss: 0.739195
+mAP: 0.29348375892887396
+0.4: 0.3933677311402515 0.3: 0.5186623359020534 0.2: 0.6550236329109869 0.1: 0.740854040944174 0.01: 0.7850598905497492
+max mAP 0.3110792679004245
+Epoch 23 evaluation completed: total_loss: 11.349767 | mIoU: 0.490542| mIoU_2d: 0.615290 | total_eval_time: 5.418822
+start epoch
+................................................................total epoch time : 6.90479302406311 seconds
+Epoch 24 training completed: total_loss: 0.837566 | total_rpn_loss: 0.738670
+mAP: 0.2742082560347902
+0.4: 0.36760173345746466 0.3: 0.477748699961533 0.2: 0.6177320284233843 0.1: 0.6971172450636508 0.01: 0.7499806857167807
+max mAP 0.3110792679004245
+Epoch 24 evaluation completed: total_loss: 11.757847 | mIoU: 0.477214| mIoU_2d: 0.609435 | total_eval_time: 5.447764
+start epoch
+................................................................total epoch time : 6.926025390625 seconds
+Epoch 25 training completed: total_loss: 0.836895 | total_rpn_loss: 0.739384
+mAP: 0.2956129498009419
+0.4: 0.40478296515344603 0.3: 0.529409759724182 0.2: 0.6465198673172226 0.1: 0.7707654880876523 0.01: 0.8211369464523162
+max mAP 0.3110792679004245
+Epoch 25 evaluation completed: total_loss: 11.273374 | mIoU: 0.489723| mIoU_2d: 0.620113 | total_eval_time: 5.420566
+start epoch
+................................................................total epoch time : 6.872556924819946 seconds
+Epoch 26 training completed: total_loss: 0.833183 | total_rpn_loss: 0.737251
+mAP: 0.2849534531302867
+0.4: 0.3801179797299724 0.3: 0.49499197752163127 0.2: 0.5818174873147759 0.1: 0.687689709149275 0.01: 0.7647918695453637
+max mAP 0.3110792679004245
+Epoch 26 evaluation completed: total_loss: 12.138664 | mIoU: 0.484317| mIoU_2d: 0.621043 | total_eval_time: 5.447588
+start epoch
+................................................................total epoch time : 7.023666620254517 seconds
+Epoch 27 training completed: total_loss: 0.828309 | total_rpn_loss: 0.736367
+mAP: 0.29990570137740397
+0.4: 0.41823428444617927 0.3: 0.5183847361295276 0.2: 0.6320450411996161 0.1: 0.7224644373857083 0.01: 0.769503305669674
+max mAP 0.3110792679004245
+Epoch 27 evaluation completed: total_loss: 11.441807 | mIoU: 0.472553| mIoU_2d: 0.611876 | total_eval_time: 5.521183
+start epoch
+................................................................total epoch time : 7.209548711776733 seconds
+Epoch 28 training completed: total_loss: 0.823109 | total_rpn_loss: 0.731517
+mAP: 0.28381237979314083
+0.4: 0.3950381433636059 0.3: 0.5049120496953157 0.2: 0.6179469056303675 0.1: 0.7304674084457896 0.01: 0.796391929650626
+max mAP 0.3110792679004245
+Epoch 28 evaluation completed: total_loss: 11.479101 | mIoU: 0.485015| mIoU_2d: 0.610937 | total_eval_time: 5.541929
+start epoch
+................................................................total epoch time : 7.194260835647583 seconds
+Epoch 29 training completed: total_loss: 0.824147 | total_rpn_loss: 0.732019
+mAP: 0.183102606119245
+0.4: 0.2712480617491399 0.3: 0.4024889789277191 0.2: 0.5747333020027114 0.1: 0.6771635588680196 0.01: 0.7533540171060925
+max mAP 0.3110792679004245
+Epoch 29 evaluation completed: total_loss: 11.768111 | mIoU: 0.462134| mIoU_2d: 0.592637 | total_eval_time: 5.531878
+start epoch
+................................................................total epoch time : 7.170320749282837 seconds
+Epoch 30 training completed: total_loss: 0.822659 | total_rpn_loss: 0.729442
+mAP: 0.3329134227631192
+0.4: 0.4211978661997546 0.3: 0.541087288902226 0.2: 0.6544442740050549 0.1: 0.7714237613909406 0.01: 0.8169837336460885
+max mAP 0.3110792679004245
+Epoch: 29 Recall: 0.9868421052631579
+Epoch 30 evaluation completed: total_loss: 11.201601 | mIoU: 0.480243| mIoU_2d: 0.612691 | total_eval_time: 5.496818
+start epoch
+................................................................total epoch time : 7.1221771240234375 seconds
+Epoch 31 training completed: total_loss: 0.822944 | total_rpn_loss: 0.729040
+mAP: 0.33049208110085915
+0.4: 0.43067276128894344 0.3: 0.5354987975316124 0.2: 0.6618977695701033 0.1: 0.7478325793285452 0.01: 0.7942120353213404
+max mAP 0.3329134227631192
+Epoch 31 evaluation completed: total_loss: 11.167549 | mIoU: 0.492948| mIoU_2d: 0.625746 | total_eval_time: 5.537895
+start epoch
+................................................................total epoch time : 7.287217140197754 seconds
+Epoch 32 training completed: total_loss: 0.817457 | total_rpn_loss: 0.726015
+mAP: 0.35798396543334354
+0.4: 0.46669604307906076 0.3: 0.5566287017126299 0.2: 0.6649039359017995 0.1: 0.7449525121454594 0.01: 0.7887614275612512
+max mAP 0.3329134227631192
+Epoch: 31 Recall: 0.9142857142857143
+Epoch 32 evaluation completed: total_loss: 11.797451 | mIoU: 0.497423| mIoU_2d: 0.630879 | total_eval_time: 5.492827
+start epoch
+................................................................total epoch time : 7.116595506668091 seconds
+Epoch 33 training completed: total_loss: 0.820978 | total_rpn_loss: 0.727361
+mAP: 0.355953786766074
+0.4: 0.46521010189124723 0.3: 0.5309162961230617 0.2: 0.6806354202842473 0.1: 0.7902559517990903 0.01: 0.8312343346777136
+max mAP 0.35798396543334354
+Epoch 33 evaluation completed: total_loss: 11.227332 | mIoU: 0.512325| mIoU_2d: 0.643387 | total_eval_time: 5.608114
+start epoch
+................................................................total epoch time : 7.1065356731414795 seconds
+Epoch 34 training completed: total_loss: 0.809897 | total_rpn_loss: 0.722125
+mAP: 0.33376530069057236
+0.4: 0.4416528257259538 0.3: 0.5118147333157022 0.2: 0.6480635159844361 0.1: 0.7440067167774389 0.01: 0.8009514150424807
+max mAP 0.35798396543334354
+Epoch 34 evaluation completed: total_loss: 11.405166 | mIoU: 0.500180| mIoU_2d: 0.636303 | total_eval_time: 5.539507
+start epoch
+................................................................total epoch time : 7.261310577392578 seconds
+Epoch 35 training completed: total_loss: 0.811460 | total_rpn_loss: 0.724864
+mAP: 0.338902569170985
+0.4: 0.44520705282148304 0.3: 0.5518929131278725 0.2: 0.6523379408653508 0.1: 0.7732606259672724 0.01: 0.8201326616759023
+max mAP 0.35798396543334354
+Epoch 35 evaluation completed: total_loss: 10.807008 | mIoU: 0.501310| mIoU_2d: 0.636206 | total_eval_time: 5.578888
+start epoch
+................................................................total epoch time : 7.2861034870147705 seconds
+Epoch 36 training completed: total_loss: 0.815570 | total_rpn_loss: 0.724195
+mAP: 0.3241454796696845
+0.4: 0.4130122712318759 0.3: 0.4951608236941663 0.2: 0.5940748852624201 0.1: 0.6684147975546336 0.01: 0.7346374077771503
+max mAP 0.35798396543334354
+Epoch 36 evaluation completed: total_loss: 12.079465 | mIoU: 0.499879| mIoU_2d: 0.629099 | total_eval_time: 5.598849
+start epoch
+................................................................total epoch time : 7.236697673797607 seconds
+Epoch 37 training completed: total_loss: 0.811206 | total_rpn_loss: 0.722921
+mAP: 0.3461448806195938
+0.4: 0.4367228959202252 0.3: 0.5284145600064146 0.2: 0.6419443614629821 0.1: 0.7332803675530449 0.01: 0.7624377580195248
+max mAP 0.35798396543334354
+Epoch 37 evaluation completed: total_loss: 11.950355 | mIoU: 0.511421| mIoU_2d: 0.647440 | total_eval_time: 5.529727
+start epoch
+................................................................total epoch time : 7.200938701629639 seconds
+Epoch 38 training completed: total_loss: 0.805913 | total_rpn_loss: 0.721587
+mAP: 0.3133827357309412
+0.4: 0.42904693431770297 0.3: 0.5436638503174721 0.2: 0.6310612591700251 0.1: 0.7580866391329407 0.01: 0.8158646627571486
+max mAP 0.35798396543334354
+Epoch 38 evaluation completed: total_loss: 11.326431 | mIoU: 0.497094| mIoU_2d: 0.624308 | total_eval_time: 5.551329
+start epoch
+................................................................total epoch time : 7.183927059173584 seconds
+Epoch 39 training completed: total_loss: 0.808502 | total_rpn_loss: 0.718866
+mAP: 0.36460171410124115
+0.4: 0.4599026011964686 0.3: 0.5517492537772166 0.2: 0.6642506672969665 0.1: 0.7739527526058887 0.01: 0.8206696666075645
+max mAP 0.35798396543334354
+Epoch: 38 Recall: 0.9193548387096774
+Epoch 39 evaluation completed: total_loss: 11.237845 | mIoU: 0.506728| mIoU_2d: 0.643669 | total_eval_time: 5.527546
+start epoch
+................................................................total epoch time : 7.092644929885864 seconds
+Epoch 40 training completed: total_loss: 0.805670 | total_rpn_loss: 0.719468
+mAP: 0.3802470818601454
+0.4: 0.48829680285306 0.3: 0.5779786518442138 0.2: 0.6738251440427296 0.1: 0.7530105641127147 0.01: 0.8073035345403828
+max mAP 0.36460171410124115
+Epoch: 39 Recall: 0.98
+Epoch 40 evaluation completed: total_loss: 11.091858 | mIoU: 0.517349| mIoU_2d: 0.648365 | total_eval_time: 5.502911
+start epoch
+................................................................total epoch time : 7.0674614906311035 seconds
+Epoch 41 training completed: total_loss: 0.799239 | total_rpn_loss: 0.714447
+mAP: 0.3754801630934589
+0.4: 0.48618824278522904 0.3: 0.5402098307264471 0.2: 0.6532578536322459 0.1: 0.7537327799996081 0.01: 0.7829600299287203
+max mAP 0.3802470818601454
+Epoch 41 evaluation completed: total_loss: 11.152244 | mIoU: 0.519948| mIoU_2d: 0.649394 | total_eval_time: 5.593037
+start epoch
+................................................................total epoch time : 7.081770896911621 seconds
+Epoch 42 training completed: total_loss: 0.802573 | total_rpn_loss: 0.717041
+mAP: 0.322938317275922
+0.4: 0.4423860960445136 0.3: 0.5446245833645312 0.2: 0.6572288094709208 0.1: 0.7726102815424309 0.01: 0.7995308607778803
+max mAP 0.3802470818601454
+Epoch 42 evaluation completed: total_loss: 11.005340 | mIoU: 0.508787| mIoU_2d: 0.636836 | total_eval_time: 5.489475
+start epoch
+................................................................total epoch time : 6.995237112045288 seconds
+Epoch 43 training completed: total_loss: 0.804511 | total_rpn_loss: 0.718609
+mAP: 0.36660588954968315
+0.4: 0.46575335203788704 0.3: 0.5831344639336736 0.2: 0.6711161864418244 0.1: 0.759349363889603 0.01: 0.8071548463206035
+max mAP 0.3802470818601454
+Epoch 43 evaluation completed: total_loss: 10.763678 | mIoU: 0.515565| mIoU_2d: 0.644465 | total_eval_time: 5.487005
+start epoch
+................................................................total epoch time : 7.045980215072632 seconds
+Epoch 44 training completed: total_loss: 0.794002 | total_rpn_loss: 0.715302
+mAP: 0.3829084408879351
+0.4: 0.5054999276284287 0.3: 0.5659245082482762 0.2: 0.6886759633262185 0.1: 0.7910147701210202 0.01: 0.8291103993745713
+max mAP 0.3802470818601454
+Epoch: 43 Recall: 0.975
+Epoch 44 evaluation completed: total_loss: 11.166440 | mIoU: 0.517146| mIoU_2d: 0.652401 | total_eval_time: 5.451885
+start epoch
+................................................................total epoch time : 7.050789833068848 seconds
+Epoch 45 training completed: total_loss: 0.798393 | total_rpn_loss: 0.714731
+mAP: 0.3923849402289493
+0.4: 0.4553722485300203 0.3: 0.5584107225153517 0.2: 0.6511010583612536 0.1: 0.7369916521997795 0.01: 0.7783397890876776
+max mAP 0.3829084408879351
+Epoch: 44 Recall: 1.0
+Epoch 45 evaluation completed: total_loss: 11.316756 | mIoU: 0.521357| mIoU_2d: 0.651906 | total_eval_time: 5.460897
+start epoch
+................................................................total epoch time : 7.022181510925293 seconds
+Epoch 46 training completed: total_loss: 0.799054 | total_rpn_loss: 0.715254
+mAP: 0.36936065513242955
+0.4: 0.47165284847989936 0.3: 0.5880217844272742 0.2: 0.6879730007139379 0.1: 0.7625090882297157 0.01: 0.8127154971444226
+max mAP 0.3923849402289493
+Epoch 46 evaluation completed: total_loss: 11.152912 | mIoU: 0.516202| mIoU_2d: 0.648118 | total_eval_time: 5.626707
+start epoch
+................................................................total epoch time : 7.074439525604248 seconds
+Epoch 47 training completed: total_loss: 0.795969 | total_rpn_loss: 0.714599
+mAP: 0.4395979460521677
+0.4: 0.5268476255746067 0.3: 0.5823325342760469 0.2: 0.6627851009769922 0.1: 0.7234520497909462 0.01: 0.8197379060584784
+max mAP 0.3923849402289493
+Epoch: 46 Recall: 1.0
+Epoch 47 evaluation completed: total_loss: 12.042947 | mIoU: 0.529547| mIoU_2d: 0.654593 | total_eval_time: 5.508977
+start epoch
+................................................................total epoch time : 7.067810535430908 seconds
+Epoch 48 training completed: total_loss: 0.791495 | total_rpn_loss: 0.709966
+mAP: 0.4091259599661429
+0.4: 0.47931695487081416 0.3: 0.5831347829484878 0.2: 0.6724235421769515 0.1: 0.7434797416505243 0.01: 0.7986773089574538
+max mAP 0.4395979460521677
+Epoch 48 evaluation completed: total_loss: 10.866285 | mIoU: 0.519131| mIoU_2d: 0.648760 | total_eval_time: 5.455833
+start epoch
+................................................................total epoch time : 6.903120756149292 seconds
+Epoch 49 training completed: total_loss: 0.792085 | total_rpn_loss: 0.710503
+mAP: 0.4004756366686852
+0.4: 0.4920222189441789 0.3: 0.5935298915386569 0.2: 0.6880536323467321 0.1: 0.7564991778384244 0.01: 0.8264243776010636
+max mAP 0.4395979460521677
+Epoch 49 evaluation completed: total_loss: 10.886493 | mIoU: 0.517704| mIoU_2d: 0.639554 | total_eval_time: 5.486316
+start epoch
+................................................................total epoch time : 7.024263143539429 seconds
+Epoch 50 training completed: total_loss: 0.799067 | total_rpn_loss: 0.714204
+mAP: 0.4192917556815565
+0.4: 0.5268084381232291 0.3: 0.5809446117159771 0.2: 0.6573550445266569 0.1: 0.7511034318387593 0.01: 0.7860223051502359
+max mAP 0.4395979460521677
+Epoch 50 evaluation completed: total_loss: 11.375172 | mIoU: 0.530582| mIoU_2d: 0.656062 | total_eval_time: 5.535555
+start epoch
+................................................................total epoch time : 7.0213539600372314 seconds
+Epoch 51 training completed: total_loss: 0.791608 | total_rpn_loss: 0.710999
+mAP: 0.311932744615607
+0.4: 0.40918145107179543 0.3: 0.5045131915579775 0.2: 0.6436937142687078 0.1: 0.7210909519712257 0.01: 0.788113977484737
+max mAP 0.4395979460521677
+Epoch 51 evaluation completed: total_loss: 11.169564 | mIoU: 0.496781| mIoU_2d: 0.627739 | total_eval_time: 5.477710
+start epoch
+................................................................total epoch time : 7.0084521770477295 seconds
+Epoch 52 training completed: total_loss: 0.791035 | total_rpn_loss: 0.710064
+mAP: 0.4148455368475314
+0.4: 0.5167891855231458 0.3: 0.5853466266308789 0.2: 0.6568093171053179 0.1: 0.7386162833983827 0.01: 0.8091409338717873
+max mAP 0.4395979460521677
+Epoch 52 evaluation completed: total_loss: 11.317972 | mIoU: 0.530121| mIoU_2d: 0.661146 | total_eval_time: 5.521563
+start epoch
+................................................................total epoch time : 6.987359285354614 seconds
+Epoch 53 training completed: total_loss: 0.789470 | total_rpn_loss: 0.710349
+mAP: 0.3914550854015835
+0.4: 0.49707333070773846 0.3: 0.5797444832179598 0.2: 0.6658479576443695 0.1: 0.7421088422514581 0.01: 0.8163292181879832
+max mAP 0.4395979460521677
+Epoch 53 evaluation completed: total_loss: 11.208121 | mIoU: 0.518673| mIoU_2d: 0.645633 | total_eval_time: 5.447293
+start epoch
+................................................................total epoch time : 6.963388919830322 seconds
+Epoch 54 training completed: total_loss: 0.792500 | total_rpn_loss: 0.710073
+mAP: 0.3421307359866391
+0.4: 0.4680474825612659 0.3: 0.5514298432499455 0.2: 0.6470432550874432 0.1: 0.71871863375201 0.01: 0.7726898252099901
+max mAP 0.4395979460521677
+Epoch 54 evaluation completed: total_loss: 11.297947 | mIoU: 0.506515| mIoU_2d: 0.631168 | total_eval_time: 5.509409
+start epoch
+................................................................total epoch time : 6.906311511993408 seconds
+Epoch 55 training completed: total_loss: 0.791440 | total_rpn_loss: 0.710223
+mAP: 0.36591367702758226
+0.4: 0.49471403221847915 0.3: 0.5783859931316394 0.2: 0.6862317942945604 0.1: 0.7691730530938093 0.01: 0.8112594345492767
+max mAP 0.4395979460521677
+Epoch 55 evaluation completed: total_loss: 10.521572 | mIoU: 0.505647| mIoU_2d: 0.646756 | total_eval_time: 5.447517
+start epoch
+................................................................total epoch time : 6.872744560241699 seconds
+Epoch 56 training completed: total_loss: 0.786000 | total_rpn_loss: 0.706359
+mAP: 0.42302178237890664
+0.4: 0.5075580657056513 0.3: 0.586966080099509 0.2: 0.6860363876842122 0.1: 0.7623057903006247 0.01: 0.8101979683200238
+max mAP 0.4395979460521677
+Epoch 56 evaluation completed: total_loss: 11.656533 | mIoU: 0.512626| mIoU_2d: 0.647920 | total_eval_time: 5.466453
+start epoch
+................................................................total epoch time : 6.890864372253418 seconds
+Epoch 57 training completed: total_loss: 0.786615 | total_rpn_loss: 0.706831
+mAP: 0.37744333228668125
+0.4: 0.4832343214179669 0.3: 0.5349592411954862 0.2: 0.6666481930761464 0.1: 0.7677140120359538 0.01: 0.8116256997176512
+max mAP 0.4395979460521677
+Epoch 57 evaluation completed: total_loss: 11.002676 | mIoU: 0.517397| mIoU_2d: 0.647861 | total_eval_time: 5.459431
+start epoch
+................................................................total epoch time : 6.954572916030884 seconds
+Epoch 58 training completed: total_loss: 0.789226 | total_rpn_loss: 0.708646
+mAP: 0.3979109558369497
+0.4: 0.502223834697349 0.3: 0.5701008451657621 0.2: 0.6754315656289192 0.1: 0.7425056710265204 0.01: 0.8152969437809292
+max mAP 0.4395979460521677
+Epoch 58 evaluation completed: total_loss: 10.876077 | mIoU: 0.524358| mIoU_2d: 0.659325 | total_eval_time: 5.408110
+start epoch
+................................................................total epoch time : 7.057098865509033 seconds
+Epoch 59 training completed: total_loss: 0.782817 | total_rpn_loss: 0.706439
+mAP: 0.39710317020842173
+0.4: 0.4905415256862785 0.3: 0.571543846720873 0.2: 0.6541863674147591 0.1: 0.7311022782283639 0.01: 0.7859009754868539
+max mAP 0.4395979460521677
+Epoch 59 evaluation completed: total_loss: 11.363796 | mIoU: 0.534631| mIoU_2d: 0.663393 | total_eval_time: 5.462265
+start epoch
+................................................................total epoch time : 6.9175639152526855 seconds
+Epoch 60 training completed: total_loss: 0.782844 | total_rpn_loss: 0.706046
+mAP: 0.43456026574421996
+0.4: 0.5456906851225555 0.3: 0.6008183287417797 0.2: 0.6992218969687306 0.1: 0.7947289732718997 0.01: 0.823133312536726
+max mAP 0.4395979460521677
+Epoch 60 evaluation completed: total_loss: 11.011733 | mIoU: 0.537074| mIoU_2d: 0.668574 | total_eval_time: 5.597580
+start epoch
+................................................................total epoch time : 6.9602210521698 seconds
+Epoch 61 training completed: total_loss: 0.780366 | total_rpn_loss: 0.704502
+mAP: 0.35201355797477146
+0.4: 0.4954194854643029 0.3: 0.5658254068484769 0.2: 0.6719001319547822 0.1: 0.7727176746623858 0.01: 0.8267351093461163
+max mAP 0.4395979460521677
+Epoch 61 evaluation completed: total_loss: 11.306386 | mIoU: 0.507147| mIoU_2d: 0.641808 | total_eval_time: 5.471007
+start epoch
+................................................................total epoch time : 6.954173564910889 seconds
+Epoch 62 training completed: total_loss: 0.783674 | total_rpn_loss: 0.704390
+mAP: 0.4510737279304521
+0.4: 0.5451356118905589 0.3: 0.602655031656408 0.2: 0.6895768459609836 0.1: 0.779156801688803 0.01: 0.8362159267517454
+max mAP 0.4395979460521677
+Epoch: 61 Recall: 1.0
+Epoch 62 evaluation completed: total_loss: 11.129667 | mIoU: 0.536221| mIoU_2d: 0.666404 | total_eval_time: 5.477351
+start epoch
+................................................................total epoch time : 6.904240131378174 seconds
+Epoch 63 training completed: total_loss: 0.776459 | total_rpn_loss: 0.704026
+mAP: 0.3474196782967636
+0.4: 0.4629191835166959 0.3: 0.5500027676092444 0.2: 0.6585667036418956 0.1: 0.7801738706489673 0.01: 0.8493399403142093
+max mAP 0.4510737279304521
+Epoch 63 evaluation completed: total_loss: 11.540743 | mIoU: 0.507958| mIoU_2d: 0.637482 | total_eval_time: 5.450916
+start epoch
+................................................................total epoch time : 6.90725040435791 seconds
+Epoch 64 training completed: total_loss: 0.775376 | total_rpn_loss: 0.701622
+mAP: 0.4108381267718529
+0.4: 0.5133149585760394 0.3: 0.5890884702164091 0.2: 0.6581670016850465 0.1: 0.738662170098663 0.01: 0.7898517699516976
+max mAP 0.4510737279304521
+Epoch 64 evaluation completed: total_loss: 11.020947 | mIoU: 0.525686| mIoU_2d: 0.658168 | total_eval_time: 5.468551
+start epoch
+................................................................total epoch time : 7.045981168746948 seconds
+Epoch 65 training completed: total_loss: 0.780893 | total_rpn_loss: 0.704835
+mAP: 0.4308313949185464
+0.4: 0.5307628075140707 0.3: 0.6265916199344216 0.2: 0.7119403645523604 0.1: 0.7935241470278193 0.01: 0.8495055560739273
+max mAP 0.4510737279304521
+Epoch 65 evaluation completed: total_loss: 10.899781 | mIoU: 0.526301| mIoU_2d: 0.661316 | total_eval_time: 5.489525
+start epoch
+................................................................total epoch time : 7.05057168006897 seconds
+Epoch 66 training completed: total_loss: 0.777964 | total_rpn_loss: 0.703546
+mAP: 0.43136118160468306
+0.4: 0.5282011929849266 0.3: 0.6023253247869931 0.2: 0.6710567874475075 0.1: 0.7553152333897883 0.01: 0.8342993823586075
+max mAP 0.4510737279304521
+Epoch 66 evaluation completed: total_loss: 10.817155 | mIoU: 0.534886| mIoU_2d: 0.657829 | total_eval_time: 5.626674
+start epoch
+................................................................total epoch time : 7.013415813446045 seconds
+Epoch 67 training completed: total_loss: 0.768725 | total_rpn_loss: 0.700855
+mAP: 0.4103135298741968
+0.4: 0.5394646825494742 0.3: 0.5769690098769542 0.2: 0.6788486719655911 0.1: 0.7772338913749196 0.01: 0.8510098156916748
+max mAP 0.4510737279304521
+Epoch 67 evaluation completed: total_loss: 10.980740 | mIoU: 0.530683| mIoU_2d: 0.656484 | total_eval_time: 5.501302
+start epoch
+................................................................total epoch time : 7.025969982147217 seconds
+Epoch 68 training completed: total_loss: 0.775201 | total_rpn_loss: 0.702823
+mAP: 0.39098153573653494
+0.4: 0.48157515672765483 0.3: 0.5583430010951242 0.2: 0.6551056075195428 0.1: 0.7526365311087526 0.01: 0.7959641563464024
+max mAP 0.4510737279304521
+Epoch 68 evaluation completed: total_loss: 11.017447 | mIoU: 0.528889| mIoU_2d: 0.655264 | total_eval_time: 5.487349
+start epoch
+................................................................total epoch time : 7.119198799133301 seconds
+Epoch 69 training completed: total_loss: 0.776111 | total_rpn_loss: 0.701395
+mAP: 0.46904256996428706
+0.4: 0.5512601715320132 0.3: 0.6069188880384649 0.2: 0.6909956722799984 0.1: 0.7819135821823564 0.01: 0.8592296464833087
+max mAP 0.4510737279304521
+Epoch: 68 Recall: 1.0
+Epoch 69 evaluation completed: total_loss: 10.735782 | mIoU: 0.543321| mIoU_2d: 0.672729 | total_eval_time: 5.592374
+start epoch
+................................................................total epoch time : 7.089821815490723 seconds
+Epoch 70 training completed: total_loss: 0.779620 | total_rpn_loss: 0.704472
+mAP: 0.4155034502042639
+0.4: 0.5195642554312282 0.3: 0.6069004147852922 0.2: 0.6826372803000184 0.1: 0.7668990329145737 0.01: 0.8308444207591538
+max mAP 0.46904256996428706
+Epoch 70 evaluation completed: total_loss: 10.992188 | mIoU: 0.526326| mIoU_2d: 0.651360 | total_eval_time: 5.459394
+start epoch
+................................................................total epoch time : 7.160701274871826 seconds
+Epoch 71 training completed: total_loss: 0.775174 | total_rpn_loss: 0.703052
+mAP: 0.4190936982911846
+0.4: 0.5122014276730353 0.3: 0.5838500073028234 0.2: 0.6572677798138384 0.1: 0.7303479873465217 0.01: 0.7987174213555719
+max mAP 0.46904256996428706
+Epoch 71 evaluation completed: total_loss: 11.042367 | mIoU: 0.531659| mIoU_2d: 0.656592 | total_eval_time: 5.480400
+start epoch
+................................................................total epoch time : 7.013479232788086 seconds
+Epoch 72 training completed: total_loss: 0.770111 | total_rpn_loss: 0.700163
+mAP: 0.4184261547945285
+0.4: 0.5316275037626311 0.3: 0.5928595781094598 0.2: 0.698472062593861 0.1: 0.7659565504144518 0.01: 0.8156056733507825
+max mAP 0.46904256996428706
+Epoch 72 evaluation completed: total_loss: 10.993761 | mIoU: 0.535532| mIoU_2d: 0.662292 | total_eval_time: 5.554887
+start epoch
+................................................................total epoch time : 7.284351348876953 seconds
+Epoch 73 training completed: total_loss: 0.775308 | total_rpn_loss: 0.701329
+mAP: 0.4416280564156331
+0.4: 0.5237145511745034 0.3: 0.5839379044539046 0.2: 0.6701583955422059 0.1: 0.7627216798561697 0.01: 0.8543827695435681
+max mAP 0.46904256996428706
+Epoch 73 evaluation completed: total_loss: 11.976063 | mIoU: 0.532993| mIoU_2d: 0.666708 | total_eval_time: 5.652939
+start epoch
+................................................................total epoch time : 7.292407035827637 seconds
+Epoch 74 training completed: total_loss: 0.774728 | total_rpn_loss: 0.700842
+mAP: 0.3796875093569783
+0.4: 0.4987766517461074 0.3: 0.5688639355846176 0.2: 0.66093004840535 0.1: 0.7648024740801133 0.01: 0.8242934607766894
+max mAP 0.46904256996428706
+Epoch 74 evaluation completed: total_loss: 10.924480 | mIoU: 0.524247| mIoU_2d: 0.652475 | total_eval_time: 5.568173
+start epoch
+................................................................total epoch time : 7.273988485336304 seconds
+Epoch 75 training completed: total_loss: 0.770792 | total_rpn_loss: 0.699092
+mAP: 0.4225778903713038
+0.4: 0.5326710242684785 0.3: 0.5900527183268286 0.2: 0.6809695312707099 0.1: 0.7558911478220359 0.01: 0.8168659746844531
+max mAP 0.46904256996428706
+Epoch 75 evaluation completed: total_loss: 11.000841 | mIoU: 0.526934| mIoU_2d: 0.653983 | total_eval_time: 5.431934
+start epoch
+................................................................total epoch time : 6.882249593734741 seconds
+Epoch 76 training completed: total_loss: 0.771881 | total_rpn_loss: 0.698884
+mAP: 0.45730042319826214
+0.4: 0.5530443856574427 0.3: 0.6027152318920189 0.2: 0.6991266585243855 0.1: 0.781385897232856 0.01: 0.8460100284008177
+max mAP 0.46904256996428706
+Epoch 76 evaluation completed: total_loss: 11.306198 | mIoU: 0.538602| mIoU_2d: 0.658811 | total_eval_time: 5.470917
+start epoch
+................................................................total epoch time : 6.988862991333008 seconds
+Epoch 77 training completed: total_loss: 0.763844 | total_rpn_loss: 0.696685
+mAP: 0.3959928450341858
+0.4: 0.5044532023043444 0.3: 0.5681102344302216 0.2: 0.6509160114936189 0.1: 0.7345484485755498 0.01: 0.797811262458705
+max mAP 0.46904256996428706
+Epoch 77 evaluation completed: total_loss: 11.064108 | mIoU: 0.524242| mIoU_2d: 0.657585 | total_eval_time: 5.614371
+start epoch
+................................................................total epoch time : 6.945038318634033 seconds
+Epoch 78 training completed: total_loss: 0.767657 | total_rpn_loss: 0.695856
+mAP: 0.4777797091849031
+0.4: 0.5675658747900783 0.3: 0.6273917337161085 0.2: 0.7027994213077633 0.1: 0.7739554731393516 0.01: 0.8272489039430689
+max mAP 0.46904256996428706
+Epoch: 77 Recall: 1.0
+Epoch 78 evaluation completed: total_loss: 13.020642 | mIoU: 0.543050| mIoU_2d: 0.668230 | total_eval_time: 5.491407
+start epoch
+................................................................total epoch time : 7.042684555053711 seconds
+Epoch 79 training completed: total_loss: 0.770034 | total_rpn_loss: 0.698719
+mAP: 0.41725899495582186
+0.4: 0.525288771330634 0.3: 0.5772394354612538 0.2: 0.6710343412551639 0.1: 0.7536280507155719 0.01: 0.8184768985661048
+max mAP 0.4777797091849031
+Epoch 79 evaluation completed: total_loss: 11.410845 | mIoU: 0.540303| mIoU_2d: 0.669736 | total_eval_time: 5.496919
+start epoch
+................................................................total epoch time : 6.945778131484985 seconds
+Epoch 80 training completed: total_loss: 0.765351 | total_rpn_loss: 0.696506
+mAP: 0.42440228940231195
+0.4: 0.5199258258034796 0.3: 0.5874455695479014 0.2: 0.6745673740194148 0.1: 0.7640946883002127 0.01: 0.8358939347954244
+max mAP 0.4777797091849031
+Epoch 80 evaluation completed: total_loss: 10.860111 | mIoU: 0.556441| mIoU_2d: 0.676306 | total_eval_time: 5.471218
+start epoch
+................................................................total epoch time : 6.902599573135376 seconds
+Epoch 81 training completed: total_loss: 0.772926 | total_rpn_loss: 0.699294
+mAP: 0.4425768606460419
+0.4: 0.535781575328589 0.3: 0.6283669590070494 0.2: 0.7106688434755148 0.1: 0.7772949684119578 0.01: 0.8354446315443231
+max mAP 0.4777797091849031
+Epoch 81 evaluation completed: total_loss: 10.987904 | mIoU: 0.539729| mIoU_2d: 0.675358 | total_eval_time: 5.441264
+start epoch
+................................................................total epoch time : 6.907987833023071 seconds
+Epoch 82 training completed: total_loss: 0.768321 | total_rpn_loss: 0.699332
+mAP: 0.47942902828797784
+0.4: 0.5821883514765633 0.3: 0.6504365948878508 0.2: 0.7228256692401434 0.1: 0.7889184488151513 0.01: 0.8700623761735035
+max mAP 0.4777797091849031
+Epoch: 81 Recall: 1.0
+Epoch 82 evaluation completed: total_loss: 10.645855 | mIoU: 0.547009| mIoU_2d: 0.674069 | total_eval_time: 5.442871
+start epoch
+................................................................total epoch time : 6.930669784545898 seconds
+Epoch 83 training completed: total_loss: 0.765923 | total_rpn_loss: 0.695576
+mAP: 0.47806924878068074
+0.4: 0.5475750854445427 0.3: 0.6069775284515203 0.2: 0.7006116718165644 0.1: 0.7842354334261232 0.01: 0.8506576105708978
+max mAP 0.47942902828797784
+Epoch 83 evaluation completed: total_loss: 10.476836 | mIoU: 0.544800| mIoU_2d: 0.676188 | total_eval_time: 5.627565
+start epoch
+................................................................total epoch time : 7.188073635101318 seconds
+Epoch 84 training completed: total_loss: 0.764810 | total_rpn_loss: 0.696919
+mAP: 0.49128471836534215
+0.4: 0.5879747831698133 0.3: 0.652785558126493 0.2: 0.7219645948535474 0.1: 0.817070482021029 0.01: 0.8444400864021473
+max mAP 0.47942902828797784
+Epoch: 83 Recall: 1.0
+Epoch 84 evaluation completed: total_loss: 11.295041 | mIoU: 0.546036| mIoU_2d: 0.671982 | total_eval_time: 5.574129
+start epoch
+................................................................total epoch time : 7.253711700439453 seconds
+Epoch 85 training completed: total_loss: 0.765458 | total_rpn_loss: 0.695709
+mAP: 0.4631121712866292
+0.4: 0.561831663568742 0.3: 0.6119442840367774 0.2: 0.7019602452943847 0.1: 0.7898962823528833 0.01: 0.838139434958514
+max mAP 0.49128471836534215
+Epoch 85 evaluation completed: total_loss: 11.692317 | mIoU: 0.537916| mIoU_2d: 0.666225 | total_eval_time: 5.603264
+start epoch
+................................................................total epoch time : 7.219376802444458 seconds
+Epoch 86 training completed: total_loss: 0.761245 | total_rpn_loss: 0.693666
+mAP: 0.47147609084000663
+0.4: 0.5683239058539867 0.3: 0.6566160278323847 0.2: 0.7363146060282558 0.1: 0.8229034484688944 0.01: 0.8639721238066137
+max mAP 0.49128471836534215
+Epoch 86 evaluation completed: total_loss: 11.097159 | mIoU: 0.548232| mIoU_2d: 0.677888 | total_eval_time: 5.561312
+start epoch
+................................................................total epoch time : 7.12980318069458 seconds
+Epoch 87 training completed: total_loss: 0.765168 | total_rpn_loss: 0.697004
+mAP: 0.45942359908578395
+0.4: 0.5687516642335876 0.3: 0.6232124665884126 0.2: 0.7274493761110495 0.1: 0.7888778338150164 0.01: 0.862290778705335
+max mAP 0.49128471836534215
+Epoch 87 evaluation completed: total_loss: 11.502717 | mIoU: 0.542346| mIoU_2d: 0.674149 | total_eval_time: 5.614641
+start epoch
+................................................................total epoch time : 7.209330081939697 seconds
+Epoch 88 training completed: total_loss: 0.759674 | total_rpn_loss: 0.695673
+mAP: 0.4033512427786142
+0.4: 0.5242887998855046 0.3: 0.6207281388954276 0.2: 0.7343255175420889 0.1: 0.800195279891408 0.01: 0.8409283515197152
+max mAP 0.49128471836534215
+Epoch 88 evaluation completed: total_loss: 11.577860 | mIoU: 0.531623| mIoU_2d: 0.659261 | total_eval_time: 5.535677
+start epoch
+................................................................total epoch time : 6.983951807022095 seconds
+Epoch 89 training completed: total_loss: 0.767471 | total_rpn_loss: 0.697476
+mAP: 0.44640037271242194
+0.4: 0.5569402162858418 0.3: 0.6313810603852182 0.2: 0.7260410403651506 0.1: 0.801209786455383 0.01: 0.843214083127734
+max mAP 0.49128471836534215
+Epoch 89 evaluation completed: total_loss: 10.433147 | mIoU: 0.551510| mIoU_2d: 0.679713 | total_eval_time: 5.587156
+start epoch
+................................................................total epoch time : 7.221035003662109 seconds
+Epoch 90 training completed: total_loss: 0.765823 | total_rpn_loss: 0.696290
+mAP: 0.4532351962483582
+0.4: 0.5806353801829122 0.3: 0.6529801882767713 0.2: 0.7239467736475305 0.1: 0.7884534922806364 0.01: 0.8388669825094318
+max mAP 0.49128471836534215
+Epoch 90 evaluation completed: total_loss: 12.500479 | mIoU: 0.547684| mIoU_2d: 0.681196 | total_eval_time: 5.634985
+start epoch
+................................................................total epoch time : 6.949922323226929 seconds
+Epoch 91 training completed: total_loss: 0.761132 | total_rpn_loss: 0.693360
+mAP: 0.4937431368498546
+0.4: 0.5863828735648685 0.3: 0.6422646293996703 0.2: 0.7353788457301398 0.1: 0.8176856309314116 0.01: 0.8615269168238578
+max mAP 0.49128471836534215
+Epoch: 90 Recall: 1.0
+Epoch 91 evaluation completed: total_loss: 11.049417 | mIoU: 0.552744| mIoU_2d: 0.682615 | total_eval_time: 5.481966
+start epoch
+................................................................total epoch time : 7.031689167022705 seconds
+Epoch 92 training completed: total_loss: 0.762352 | total_rpn_loss: 0.693654
+mAP: 0.4765312463329589
+0.4: 0.5680829451044275 0.3: 0.6325941013508459 0.2: 0.7205596390991579 0.1: 0.7998064942090105 0.01: 0.8273705026520866
+max mAP 0.4937431368498546
+Epoch 92 evaluation completed: total_loss: 11.056742 | mIoU: 0.542208| mIoU_2d: 0.678463 | total_eval_time: 5.477364
+start epoch
+................................................................total epoch time : 6.937469959259033 seconds
+Epoch 93 training completed: total_loss: 0.766270 | total_rpn_loss: 0.698125
+mAP: 0.4496428212780307
+0.4: 0.5690754002042006 0.3: 0.6270130917287049 0.2: 0.7056014462146311 0.1: 0.7849505288301123 0.01: 0.8196599912735016
+max mAP 0.4937431368498546
+Epoch 93 evaluation completed: total_loss: 10.399005 | mIoU: 0.549585| mIoU_2d: 0.682452 | total_eval_time: 5.457184
+start epoch
+................................................................total epoch time : 6.938732862472534 seconds
+Epoch 94 training completed: total_loss: 0.761106 | total_rpn_loss: 0.691639
+mAP: 0.3979426833280487
+0.4: 0.5127012502149315 0.3: 0.5978752880038476 0.2: 0.7105515829186356 0.1: 0.8135261128582169 0.01: 0.8542949029852054
+max mAP 0.4937431368498546
+Epoch 94 evaluation completed: total_loss: 10.436176 | mIoU: 0.533085| mIoU_2d: 0.657560 | total_eval_time: 5.439200
+start epoch
+................................................................total epoch time : 6.94262957572937 seconds
+Epoch 95 training completed: total_loss: 0.758464 | total_rpn_loss: 0.693215
+mAP: 0.41226051827523025
+0.4: 0.5199759790793324 0.3: 0.5984219944189538 0.2: 0.6807624328626237 0.1: 0.7615880898969605 0.01: 0.8017277354314075
+max mAP 0.4937431368498546
+Epoch 95 evaluation completed: total_loss: 10.995455 | mIoU: 0.534782| mIoU_2d: 0.665301 | total_eval_time: 5.469041
+start epoch
+................................................................total epoch time : 6.980691432952881 seconds
+Epoch 96 training completed: total_loss: 0.760000 | total_rpn_loss: 0.695059
+mAP: 0.4735653391711582
+0.4: 0.563670465762367 0.3: 0.6368197093836214 0.2: 0.7264044392140518 0.1: 0.7910264639547246 0.01: 0.8465056664782021
+max mAP 0.4937431368498546
+Epoch 96 evaluation completed: total_loss: 12.204908 | mIoU: 0.554042| mIoU_2d: 0.682752 | total_eval_time: 5.631766
+start epoch
+................................................................total epoch time : 7.018941879272461 seconds
+Epoch 97 training completed: total_loss: 0.757523 | total_rpn_loss: 0.692029
+mAP: 0.48158143122915226
+0.4: 0.5992823209701142 0.3: 0.6549105981820121 0.2: 0.7182697031716153 0.1: 0.8068111785904887 0.01: 0.8315686855588021
+max mAP 0.4937431368498546
+Epoch 97 evaluation completed: total_loss: 10.537159 | mIoU: 0.539836| mIoU_2d: 0.674132 | total_eval_time: 5.560383
+start epoch
+................................................................total epoch time : 7.1417553424835205 seconds
+Epoch 98 training completed: total_loss: 0.756705 | total_rpn_loss: 0.690470
+mAP: 0.43752833222205484
+0.4: 0.5269357943376173 0.3: 0.603353990532829 0.2: 0.6939772580199537 0.1: 0.7674137717550181 0.01: 0.8017801310565731
+max mAP 0.4937431368498546
+Epoch 98 evaluation completed: total_loss: 13.123586 | mIoU: 0.536129| mIoU_2d: 0.668310 | total_eval_time: 5.573982
+start epoch
+................................................................total epoch time : 7.326915979385376 seconds
+Epoch 99 training completed: total_loss: 0.754533 | total_rpn_loss: 0.689861
+mAP: 0.41279932875602
+0.4: 0.5557712541017761 0.3: 0.6189259254529755 0.2: 0.6995791564761595 0.1: 0.7666952651352386 0.01: 0.8209494207684789
+max mAP 0.4937431368498546
+Epoch 99 evaluation completed: total_loss: 11.363813 | mIoU: 0.528781| mIoU_2d: 0.654436 | total_eval_time: 5.535838
+start epoch
+................................................................total epoch time : 7.111763000488281 seconds
+Epoch 100 training completed: total_loss: 0.756833 | total_rpn_loss: 0.691870
+mAP: 0.4270644822176351
+0.4: 0.5388185981702095 0.3: 0.627072046206121 0.2: 0.7064983136836085 0.1: 0.7784689069357297 0.01: 0.8274700739106049
+max mAP 0.4937431368498546
+Epoch 100 evaluation completed: total_loss: 11.019515 | mIoU: 0.538397| mIoU_2d: 0.666216 | total_eval_time: 5.553170
+start epoch
+................................................................total epoch time : 7.24645209312439 seconds
+Epoch 101 training completed: total_loss: 0.762176 | total_rpn_loss: 0.692817
+mAP: 0.465143347144946
+0.4: 0.5543515382680844 0.3: 0.6205684133968025 0.2: 0.7023418076938885 0.1: 0.8104372683592267 0.01: 0.8540898140577342
+max mAP 0.4937431368498546
+Epoch 101 evaluation completed: total_loss: 12.425127 | mIoU: 0.538485| mIoU_2d: 0.663725 | total_eval_time: 5.615748
+start epoch
+................................................................total epoch time : 7.257979154586792 seconds
+Epoch 102 training completed: total_loss: 0.761189 | total_rpn_loss: 0.694815
+mAP: 0.42685797024099653
+0.4: 0.5442391797988586 0.3: 0.6171501451499799 0.2: 0.7189517099712567 0.1: 0.806433634545903 0.01: 0.8493250174413016
+max mAP 0.4937431368498546
+Epoch 102 evaluation completed: total_loss: 10.938081 | mIoU: 0.535443| mIoU_2d: 0.656860 | total_eval_time: 5.597795
+start epoch
+................................................................total epoch time : 7.179666042327881 seconds
+Epoch 103 training completed: total_loss: 0.753226 | total_rpn_loss: 0.688314
+mAP: 0.48753721999620275
+0.4: 0.5917674547580908 0.3: 0.6581304952414534 0.2: 0.7463258411959685 0.1: 0.8180508493452856 0.01: 0.8574901990564883
+max mAP 0.4937431368498546
+Epoch 103 evaluation completed: total_loss: 10.772037 | mIoU: 0.545794| mIoU_2d: 0.675493 | total_eval_time: 5.568863
+start epoch
+................................................................total epoch time : 7.173762559890747 seconds
+Epoch 104 training completed: total_loss: 0.756235 | total_rpn_loss: 0.691897
+mAP: 0.4694628672452622
+0.4: 0.5520336704680947 0.3: 0.6165316637397281 0.2: 0.6812580202380617 0.1: 0.77704531656128 0.01: 0.8299920765176446
+max mAP 0.4937431368498546
+Epoch 104 evaluation completed: total_loss: 12.875899 | mIoU: 0.550439| mIoU_2d: 0.678382 | total_eval_time: 5.682760
+start epoch
+................................................................total epoch time : 7.175628185272217 seconds
+Epoch 105 training completed: total_loss: 0.751147 | total_rpn_loss: 0.689293
+mAP: 0.4642277803220535
+0.4: 0.5746214814634435 0.3: 0.6335689976708477 0.2: 0.7106057035343734 0.1: 0.7951562534256527 0.01: 0.8565225861720446
+max mAP 0.4937431368498546
+Epoch 105 evaluation completed: total_loss: 11.090203 | mIoU: 0.546672| mIoU_2d: 0.673859 | total_eval_time: 5.551505
+start epoch
+................................................................total epoch time : 7.198679685592651 seconds
+Epoch 106 training completed: total_loss: 0.751870 | total_rpn_loss: 0.689256
+mAP: 0.4851626594840014
+0.4: 0.592835606529139 0.3: 0.6584794267095753 0.2: 0.7388750402035993 0.1: 0.8330611402319271 0.01: 0.8682459262634817
+max mAP 0.4937431368498546
+Epoch 106 evaluation completed: total_loss: 11.044137 | mIoU: 0.546237| mIoU_2d: 0.677085 | total_eval_time: 5.558755
+start epoch
+................................................................total epoch time : 7.090525388717651 seconds
+Epoch 107 training completed: total_loss: 0.751544 | total_rpn_loss: 0.687303
+mAP: 0.4788927304430005
+0.4: 0.5522671395364519 0.3: 0.643000162318607 0.2: 0.7291268108909548 0.1: 0.8222400458617044 0.01: 0.8718658576343217
+max mAP 0.4937431368498546
+Epoch 107 evaluation completed: total_loss: 11.907717 | mIoU: 0.551988| mIoU_2d: 0.677144 | total_eval_time: 5.558318
+start epoch
+................................................................total epoch time : 7.162976264953613 seconds
+Epoch 108 training completed: total_loss: 0.753687 | total_rpn_loss: 0.691399
+mAP: 0.4729320232064433
+0.4: 0.5595975471588717 0.3: 0.6231790899693046 0.2: 0.721242339441475 0.1: 0.8065310910826564 0.01: 0.8547581872258958
+max mAP 0.4937431368498546
+Epoch 108 evaluation completed: total_loss: 11.186781 | mIoU: 0.557240| mIoU_2d: 0.683156 | total_eval_time: 5.560106
+start epoch
+................................................................total epoch time : 7.1232686042785645 seconds
+Epoch 109 training completed: total_loss: 0.754315 | total_rpn_loss: 0.689885
+mAP: 0.4350207862332187
+0.4: 0.5575278203105407 0.3: 0.6399852918347264 0.2: 0.7198467586050195 0.1: 0.7851366003429218 0.01: 0.8516897463915699
+max mAP 0.4937431368498546
+Epoch 109 evaluation completed: total_loss: 11.731277 | mIoU: 0.551846| mIoU_2d: 0.676439 | total_eval_time: 5.524549
+start epoch
+................................................................total epoch time : 7.107054710388184 seconds
+Epoch 110 training completed: total_loss: 0.754228 | total_rpn_loss: 0.688754
+mAP: 0.48219024207990224
+0.4: 0.5649602871968364 0.3: 0.6395634463356367 0.2: 0.7114227323568473 0.1: 0.7910909380778061 0.01: 0.8450799102393044
+max mAP 0.4937431368498546
+Epoch 110 evaluation completed: total_loss: 12.373702 | mIoU: 0.545479| mIoU_2d: 0.675467 | total_eval_time: 5.524308
+start epoch
+................................................................total epoch time : 7.125622749328613 seconds
+Epoch 111 training completed: total_loss: 0.757800 | total_rpn_loss: 0.688613
+mAP: 0.4967576528326385
+0.4: 0.5704853557709288 0.3: 0.6258706586741263 0.2: 0.7269020646877505 0.1: 0.8101579990837162 0.01: 0.859613087976939
+max mAP 0.4937431368498546
+Epoch: 110 Recall: 0.9565217391304348
+Epoch 111 evaluation completed: total_loss: 11.502355 | mIoU: 0.549981| mIoU_2d: 0.680065 | total_eval_time: 5.586763
+start epoch
+................................................................total epoch time : 6.918577671051025 seconds
+Epoch 112 training completed: total_loss: 0.750587 | total_rpn_loss: 0.689254
+mAP: 0.5123126865186665
+0.4: 0.5817225621258791 0.3: 0.6370825513339604 0.2: 0.7141049100237264 0.1: 0.7820478086864856 0.01: 0.829594920245988
+max mAP 0.4967576528326385
+Epoch: 111 Recall: 0.94
+Epoch 112 evaluation completed: total_loss: 11.154440 | mIoU: 0.548109| mIoU_2d: 0.684323 | total_eval_time: 5.456390
+start epoch
+................................................................total epoch time : 6.910911798477173 seconds
+Epoch 113 training completed: total_loss: 0.753281 | total_rpn_loss: 0.689784
+mAP: 0.5006947004510548
+0.4: 0.5993531576093428 0.3: 0.6653507042726815 0.2: 0.7362907933102777 0.1: 0.8011253088550759 0.01: 0.8395885508361691
+max mAP 0.5123126865186665
+Epoch 113 evaluation completed: total_loss: 11.570199 | mIoU: 0.560254| mIoU_2d: 0.684232 | total_eval_time: 5.530437
+start epoch
+................................................................total epoch time : 7.009192705154419 seconds
+Epoch 114 training completed: total_loss: 0.753553 | total_rpn_loss: 0.689967
+mAP: 0.46773110156180286
+0.4: 0.5620155683882232 0.3: 0.6248994223089 0.2: 0.6827422285042197 0.1: 0.7958602136396984 0.01: 0.8451766029824604
+max mAP 0.5123126865186665
+Epoch 114 evaluation completed: total_loss: 10.723523 | mIoU: 0.552373| mIoU_2d: 0.679932 | total_eval_time: 5.472196
+start epoch
+................................................................total epoch time : 6.977257013320923 seconds
+Epoch 115 training completed: total_loss: 0.747517 | total_rpn_loss: 0.687063
+mAP: 0.4475090445806471
+0.4: 0.5713286709361391 0.3: 0.639736493094762 0.2: 0.717719962766268 0.1: 0.7822615856284592 0.01: 0.8455823406054509
+max mAP 0.5123126865186665
+Epoch 115 evaluation completed: total_loss: 11.505155 | mIoU: 0.548485| mIoU_2d: 0.679996 | total_eval_time: 5.477912
+start epoch
+................................................................total epoch time : 7.1126556396484375 seconds
+Epoch 116 training completed: total_loss: 0.746695 | total_rpn_loss: 0.686581
+mAP: 0.4498749560655316
+0.4: 0.5419586775692251 0.3: 0.5999672744194974 0.2: 0.6699321622261948 0.1: 0.7633473616411047 0.01: 0.8355937042987637
+max mAP 0.5123126865186665
+Epoch 116 evaluation completed: total_loss: 12.040284 | mIoU: 0.545344| mIoU_2d: 0.676143 | total_eval_time: 5.511205
+start epoch
+................................................................total epoch time : 7.216153383255005 seconds
+Epoch 117 training completed: total_loss: 0.749795 | total_rpn_loss: 0.687522
+mAP: 0.42716593854072005
+0.4: 0.5461918650356512 0.3: 0.6441015996001256 0.2: 0.7218830725686988 0.1: 0.7964596295124239 0.01: 0.8377296985115419
+max mAP 0.5123126865186665
+Epoch 117 evaluation completed: total_loss: 13.833883 | mIoU: 0.541938| mIoU_2d: 0.672284 | total_eval_time: 5.607854
+start epoch
+................................................................total epoch time : 7.171762943267822 seconds
+Epoch 118 training completed: total_loss: 0.750730 | total_rpn_loss: 0.685488
+mAP: 0.4835993190645728
+0.4: 0.5850684072361308 0.3: 0.6301218931944954 0.2: 0.7219700456929337 0.1: 0.7770578918519442 0.01: 0.8452608596324791
+max mAP 0.5123126865186665
+Epoch 118 evaluation completed: total_loss: 11.118836 | mIoU: 0.553307| mIoU_2d: 0.682139 | total_eval_time: 5.578304
+start epoch
+................................................................total epoch time : 7.148624897003174 seconds
+Epoch 119 training completed: total_loss: 0.751852 | total_rpn_loss: 0.687415
+mAP: 0.4381568484173652
+0.4: 0.5317931816055355 0.3: 0.6134180138148787 0.2: 0.7030839105423776 0.1: 0.7839188132423262 0.01: 0.8383681925775492
+max mAP 0.5123126865186665
+Epoch 119 evaluation completed: total_loss: 11.830936 | mIoU: 0.540549| mIoU_2d: 0.673315 | total_eval_time: 5.549133
+start epoch
+................................................................total epoch time : 7.11637544631958 seconds
+Epoch 120 training completed: total_loss: 0.749528 | total_rpn_loss: 0.687387
+mAP: 0.4881409148175928
+0.4: 0.59288903255465 0.3: 0.6483321091484447 0.2: 0.7237246387228327 0.1: 0.7933167205398289 0.01: 0.856726872602372
+max mAP 0.5123126865186665
+Epoch 120 evaluation completed: total_loss: 11.643800 | mIoU: 0.540899| mIoU_2d: 0.666849 | total_eval_time: 5.571759
+start epoch
+................................................................total epoch time : 7.093449115753174 seconds
+Epoch 121 training completed: total_loss: 0.751375 | total_rpn_loss: 0.686636
+mAP: 0.5199544449740198
+0.4: 0.6102753621593704 0.3: 0.678664831141228 0.2: 0.7286173102730299 0.1: 0.8104227185108911 0.01: 0.870943744841129
+max mAP 0.5123126865186665
+Epoch: 120 Recall: 0.9875
+Epoch 121 evaluation completed: total_loss: 11.473699 | mIoU: 0.560299| mIoU_2d: 0.688550 | total_eval_time: 5.587514
+start epoch
+................................................................total epoch time : 7.128340244293213 seconds
+Epoch 122 training completed: total_loss: 0.744904 | total_rpn_loss: 0.684019
+mAP: 0.514546304232517
+0.4: 0.6203825404280234 0.3: 0.6646848932629037 0.2: 0.7317983489708948 0.1: 0.8161201410232211 0.01: 0.871105986217201
+max mAP 0.5199544449740198
+Epoch 122 evaluation completed: total_loss: 10.911774 | mIoU: 0.549002| mIoU_2d: 0.676218 | total_eval_time: 5.654532
+start epoch
+................................................................total epoch time : 6.9263014793396 seconds
+Epoch 123 training completed: total_loss: 0.747992 | total_rpn_loss: 0.685743
+mAP: 0.466857931712632
+0.4: 0.5586258953533298 0.3: 0.6290203854218931 0.2: 0.7287527052041649 0.1: 0.7932587232295215 0.01: 0.8562910114410748
+max mAP 0.5199544449740198
+Epoch 123 evaluation completed: total_loss: 11.922478 | mIoU: 0.539498| mIoU_2d: 0.664097 | total_eval_time: 5.505617
+start epoch
+................................................................total epoch time : 7.071890354156494 seconds
+Epoch 124 training completed: total_loss: 0.751006 | total_rpn_loss: 0.687388
+mAP: 0.5119592269568567
+0.4: 0.5869741154455423 0.3: 0.6481488156313816 0.2: 0.7218861283440299 0.1: 0.8028105304262512 0.01: 0.852222026580018
+max mAP 0.5199544449740198
+Epoch 124 evaluation completed: total_loss: 10.524753 | mIoU: 0.564910| mIoU_2d: 0.694003 | total_eval_time: 5.453689
+start epoch
+................................................................total epoch time : 6.986822843551636 seconds
+Epoch 125 training completed: total_loss: 0.739930 | total_rpn_loss: 0.682291
+mAP: 0.4420497137885256
+0.4: 0.5785924210712168 0.3: 0.648804452677525 0.2: 0.7335650080501993 0.1: 0.8247273389033786 0.01: 0.8676253814349693
+max mAP 0.5199544449740198
+Epoch 125 evaluation completed: total_loss: 13.884188 | mIoU: 0.532615| mIoU_2d: 0.655495 | total_eval_time: 5.475290
+start epoch
+................................................................total epoch time : 6.944242000579834 seconds
+Epoch 126 training completed: total_loss: 0.742833 | total_rpn_loss: 0.684742
+mAP: 0.5333491644912874
+0.4: 0.6034298289514094 0.3: 0.6527644129822857 0.2: 0.7304546232774023 0.1: 0.8210945386902117 0.01: 0.8704856799556839
+max mAP 0.5199544449740198
+Epoch: 125 Recall: 0.8428571428571429
+Epoch 126 evaluation completed: total_loss: 12.679542 | mIoU: 0.560073| mIoU_2d: 0.684843 | total_eval_time: 5.468574
+start epoch
+................................................................total epoch time : 6.918256998062134 seconds
+Epoch 127 training completed: total_loss: 0.751495 | total_rpn_loss: 0.687115
+mAP: 0.5312007710193865
+0.4: 0.6103600355881602 0.3: 0.670436331889252 0.2: 0.760734214541122 0.1: 0.8162238250695577 0.01: 0.876358576800595
+max mAP 0.5333491644912874
+Epoch 127 evaluation completed: total_loss: 11.599971 | mIoU: 0.561313| mIoU_2d: 0.687531 | total_eval_time: 5.476967
+start epoch
+................................................................total epoch time : 6.893097400665283 seconds
+Epoch 128 training completed: total_loss: 0.744109 | total_rpn_loss: 0.685143
+mAP: 0.5091978749490704
+0.4: 0.5984705945648408 0.3: 0.650885312029573 0.2: 0.7354527647114173 0.1: 0.8067353444544043 0.01: 0.8685559224509967
+max mAP 0.5333491644912874
+Epoch 128 evaluation completed: total_loss: 10.712259 | mIoU: 0.550365| mIoU_2d: 0.677463 | total_eval_time: 5.615247
+start epoch
+................................................................total epoch time : 6.981550931930542 seconds
+Epoch 129 training completed: total_loss: 0.743844 | total_rpn_loss: 0.685538
+mAP: 0.522181773103154
+0.4: 0.6014060897135998 0.3: 0.6753063766789246 0.2: 0.7609861580137017 0.1: 0.8462272181577923 0.01: 0.8784733545052796
+max mAP 0.5333491644912874
+Epoch 129 evaluation completed: total_loss: 11.493198 | mIoU: 0.558979| mIoU_2d: 0.684607 | total_eval_time: 5.474280
+start epoch
+................................................................total epoch time : 7.015595436096191 seconds
+Epoch 130 training completed: total_loss: 0.741791 | total_rpn_loss: 0.680254
+mAP: 0.44182296199390336
+0.4: 0.5750630928888151 0.3: 0.6296392501034104 0.2: 0.7222161077086013 0.1: 0.802994386226142 0.01: 0.843737348198872
+max mAP 0.5333491644912874
+Epoch 130 evaluation completed: total_loss: 12.243648 | mIoU: 0.546442| mIoU_2d: 0.669908 | total_eval_time: 5.454356
+start epoch
+................................................................total epoch time : 6.911042928695679 seconds
+Epoch 131 training completed: total_loss: 0.745686 | total_rpn_loss: 0.684216
+mAP: 0.5538811930807644
+0.4: 0.6475164016492959 0.3: 0.6969706768952756 0.2: 0.762638246346822 0.1: 0.8332317433847688 0.01: 0.8860947596321054
+max mAP 0.5333491644912874
+Epoch: 130 Recall: 0.9666666666666667
+Epoch 131 evaluation completed: total_loss: 10.719118 | mIoU: 0.561399| mIoU_2d: 0.687539 | total_eval_time: 5.460903
+start epoch
+................................................................total epoch time : 6.947683811187744 seconds
+Epoch 132 training completed: total_loss: 0.745466 | total_rpn_loss: 0.685680
+mAP: 0.4886133160847565
+0.4: 0.580849798519474 0.3: 0.6514008149006489 0.2: 0.7570018164572389 0.1: 0.8109369677958476 0.01: 0.8597406647661747
+max mAP 0.5538811930807644
+Epoch 132 evaluation completed: total_loss: 11.592802 | mIoU: 0.551622| mIoU_2d: 0.682231 | total_eval_time: 5.494913
+start epoch
+................................................................total epoch time : 6.931959390640259 seconds
+Epoch 133 training completed: total_loss: 0.745534 | total_rpn_loss: 0.683707
+mAP: 0.4807414321245957
+0.4: 0.5729241552772159 0.3: 0.6493381528798274 0.2: 0.740732466096931 0.1: 0.801882904261066 0.01: 0.8562174688884979
+max mAP 0.5538811930807644
+Epoch 133 evaluation completed: total_loss: 10.698856 | mIoU: 0.541195| mIoU_2d: 0.671733 | total_eval_time: 5.481455
+start epoch
+................................................................total epoch time : 6.931037902832031 seconds
+Epoch 134 training completed: total_loss: 0.741109 | total_rpn_loss: 0.682642
+mAP: 0.4782988534708976
+0.4: 0.568904649962174 0.3: 0.6164501918544567 0.2: 0.7203948022656449 0.1: 0.7899271406698821 0.01: 0.878009158751621
+max mAP 0.5538811930807644
+Epoch 134 evaluation completed: total_loss: 11.334582 | mIoU: 0.559093| mIoU_2d: 0.688258 | total_eval_time: 5.603410
+start epoch
+................................................................total epoch time : 7.008178472518921 seconds
+Epoch 135 training completed: total_loss: 0.741789 | total_rpn_loss: 0.683988
+mAP: 0.4667078771506523
+0.4: 0.5666825527819134 0.3: 0.6184958797548906 0.2: 0.7165812964129133 0.1: 0.7768809086004376 0.01: 0.8438242659514527
+max mAP 0.5538811930807644
+Epoch 135 evaluation completed: total_loss: 12.152787 | mIoU: 0.542759| mIoU_2d: 0.664868 | total_eval_time: 5.456620
+start epoch
+................................................................total epoch time : 7.037626266479492 seconds
+Epoch 136 training completed: total_loss: 0.747109 | total_rpn_loss: 0.686805
+mAP: 0.4635513237319118
+0.4: 0.5773486921509008 0.3: 0.6523208379066942 0.2: 0.7400404102836539 0.1: 0.8162282636211042 0.01: 0.8575652580184868
+max mAP 0.5538811930807644
+Epoch 136 evaluation completed: total_loss: 11.131796 | mIoU: 0.535595| mIoU_2d: 0.666373 | total_eval_time: 5.467645
+start epoch
+................................................................total epoch time : 6.9608094692230225 seconds
+Epoch 137 training completed: total_loss: 0.744986 | total_rpn_loss: 0.684631
+mAP: 0.5399752078263539
+0.4: 0.6046621681479017 0.3: 0.6689914551936823 0.2: 0.7390276449153199 0.1: 0.8209683806059596 0.01: 0.8716143911148587
+max mAP 0.5538811930807644
+Epoch 137 evaluation completed: total_loss: 11.402105 | mIoU: 0.564947| mIoU_2d: 0.692112 | total_eval_time: 5.485897
+start epoch
+................................................................total epoch time : 6.929208993911743 seconds
+Epoch 138 training completed: total_loss: 0.744720 | total_rpn_loss: 0.684589
+mAP: 0.5194202190322015
+0.4: 0.6231684586081255 0.3: 0.6647649973625901 0.2: 0.7560930731525838 0.1: 0.8112822134014266 0.01: 0.8638352702954284
+max mAP 0.5538811930807644
+Epoch 138 evaluation completed: total_loss: 10.264129 | mIoU: 0.551197| mIoU_2d: 0.688371 | total_eval_time: 5.459432
+start epoch
+................................................................total epoch time : 6.9424779415130615 seconds
+Epoch 139 training completed: total_loss: 0.741416 | total_rpn_loss: 0.683702
+mAP: 0.43650403569970025
+0.4: 0.5437206080146855 0.3: 0.6168529027138979 0.2: 0.7076060765411796 0.1: 0.7738827016586911 0.01: 0.8173944068689847
+max mAP 0.5538811930807644
+Epoch 139 evaluation completed: total_loss: 12.936812 | mIoU: 0.544000| mIoU_2d: 0.670674 | total_eval_time: 5.482050
+start epoch
+................................................................total epoch time : 6.987460613250732 seconds
+Epoch 140 training completed: total_loss: 0.745227 | total_rpn_loss: 0.686615
+mAP: 0.5480650018475256
+0.4: 0.6210437680315704 0.3: 0.672589869741752 0.2: 0.7326286335223491 0.1: 0.8172780979750145 0.01: 0.8587123724461323
+max mAP 0.5538811930807644
+Epoch 140 evaluation completed: total_loss: 10.993305 | mIoU: 0.564082| mIoU_2d: 0.688180 | total_eval_time: 5.523235
+start epoch
+................................................................total epoch time : 7.026963472366333 seconds
+Epoch 141 training completed: total_loss: 0.740614 | total_rpn_loss: 0.681766
+mAP: 0.4902195945549627
+0.4: 0.5868989012392847 0.3: 0.6465886642746416 0.2: 0.7194678669729156 0.1: 0.804223818630912 0.01: 0.8775682943121876
+max mAP 0.5538811930807644
+Epoch 141 evaluation completed: total_loss: 10.528644 | mIoU: 0.556964| mIoU_2d: 0.690494 | total_eval_time: 5.567821
+start epoch
+................................................................total epoch time : 7.050686836242676 seconds
+Epoch 142 training completed: total_loss: 0.732724 | total_rpn_loss: 0.679506
+mAP: 0.5207729348400172
+0.4: 0.5946209113171244 0.3: 0.6532398410755512 0.2: 0.7353661680359881 0.1: 0.7934501020647742 0.01: 0.8443431114425586
+max mAP 0.5538811930807644
+Epoch 142 evaluation completed: total_loss: 10.858797 | mIoU: 0.565029| mIoU_2d: 0.687752 | total_eval_time: 5.577469
+start epoch
+................................................................total epoch time : 7.0171284675598145 seconds
+Epoch 143 training completed: total_loss: 0.742339 | total_rpn_loss: 0.684292
+mAP: 0.5217614121288717
+0.4: 0.6203095832138799 0.3: 0.6827419606545736 0.2: 0.7485269963838528 0.1: 0.8218801126402603 0.01: 0.8637078668855502
+max mAP 0.5538811930807644
+Epoch 143 evaluation completed: total_loss: 11.232484 | mIoU: 0.555316| mIoU_2d: 0.677195 | total_eval_time: 5.485069
+start epoch
+................................................................total epoch time : 7.079375982284546 seconds
+Epoch 144 training completed: total_loss: 0.738812 | total_rpn_loss: 0.681178
+mAP: 0.5868069122969485
+0.4: 0.6488827937794275 0.3: 0.6914150771647378 0.2: 0.7595649243792059 0.1: 0.8278919071578971 0.01: 0.8798606347507247
+max mAP 0.5538811930807644
+Epoch: 143 Recall: 0.9545454545454546
+Epoch 144 evaluation completed: total_loss: 10.867020 | mIoU: 0.571016| mIoU_2d: 0.698005 | total_eval_time: 5.487901
+start epoch
+................................................................total epoch time : 7.007399082183838 seconds
+Epoch 145 training completed: total_loss: 0.740681 | total_rpn_loss: 0.681196
+mAP: 0.5038497456031481
+0.4: 0.604273319989652 0.3: 0.6847359201065584 0.2: 0.7564227014102249 0.1: 0.8161336508045763 0.01: 0.875674081824116
+max mAP 0.5868069122969485
+Epoch 145 evaluation completed: total_loss: 12.163487 | mIoU: 0.552731| mIoU_2d: 0.674710 | total_eval_time: 5.582548
+start epoch
+................................................................total epoch time : 7.063136100769043 seconds
+Epoch 146 training completed: total_loss: 0.738919 | total_rpn_loss: 0.681129
+mAP: 0.5350310744151272
+0.4: 0.6331838930565812 0.3: 0.6846914973171295 0.2: 0.7517070429854453 0.1: 0.8332620253689382 0.01: 0.8858550619959791
+max mAP 0.5868069122969485
+Epoch 146 evaluation completed: total_loss: 11.117206 | mIoU: 0.568216| mIoU_2d: 0.695007 | total_eval_time: 5.534479
+start epoch
+................................................................total epoch time : 7.068285226821899 seconds
+Epoch 147 training completed: total_loss: 0.737549 | total_rpn_loss: 0.681672
+mAP: 0.5188492125038076
+0.4: 0.597514059679824 0.3: 0.6458745617896599 0.2: 0.7198347829586498 0.1: 0.8258152389116821 0.01: 0.8775376479237872
+max mAP 0.5868069122969485
+Epoch 147 evaluation completed: total_loss: 11.902305 | mIoU: 0.569677| mIoU_2d: 0.693988 | total_eval_time: 5.526103
+start epoch
+................................................................total epoch time : 7.003263235092163 seconds
+Epoch 148 training completed: total_loss: 0.736887 | total_rpn_loss: 0.680228
+mAP: 0.5153908494622541
+0.4: 0.6100764976404174 0.3: 0.6658777947735051 0.2: 0.7429445094329109 0.1: 0.8115725617552313 0.01: 0.8630463552247599
+max mAP 0.5868069122969485
+Epoch 148 evaluation completed: total_loss: 12.145447 | mIoU: 0.566562| mIoU_2d: 0.692651 | total_eval_time: 5.558136
+start epoch
+................................................................total epoch time : 7.032873868942261 seconds
+Epoch 149 training completed: total_loss: 0.735342 | total_rpn_loss: 0.679815
+mAP: 0.5153941725430452
+0.4: 0.634461388078097 0.3: 0.6929154890796891 0.2: 0.7675590653542349 0.1: 0.8433849630164955 0.01: 0.8827535118329194
+max mAP 0.5868069122969485
+Epoch 149 evaluation completed: total_loss: 10.934690 | mIoU: 0.560717| mIoU_2d: 0.683724 | total_eval_time: 5.468510
+start epoch
+................................................................total epoch time : 6.9755027294158936 seconds
+Epoch 150 training completed: total_loss: 0.738393 | total_rpn_loss: 0.680479
+mAP: 0.4620847005537014
+0.4: 0.5845488878856151 0.3: 0.6568447295994964 0.2: 0.7276391338491144 0.1: 0.8213339921620636 0.01: 0.8878021526759197
+max mAP 0.5868069122969485
+Epoch 150 evaluation completed: total_loss: 10.494359 | mIoU: 0.557488| mIoU_2d: 0.683103 | total_eval_time: 5.466154
+start epoch
+................................................................total epoch time : 6.955239295959473 seconds
+Epoch 151 training completed: total_loss: 0.740697 | total_rpn_loss: 0.682526
+mAP: 0.43330991182331896
+0.4: 0.5302909669968917 0.3: 0.5737968892691111 0.2: 0.6509971914566519 0.1: 0.7811601601481707 0.01: 0.8456637800568416
+max mAP 0.5868069122969485
+Epoch 151 evaluation completed: total_loss: 10.988023 | mIoU: 0.548858| mIoU_2d: 0.676506 | total_eval_time: 5.493402
+start epoch
+................................................................total epoch time : 7.020179748535156 seconds
+Epoch 152 training completed: total_loss: 0.740026 | total_rpn_loss: 0.680991
+mAP: 0.4918201588595138
+0.4: 0.6037441304110784 0.3: 0.6560550357848556 0.2: 0.7254426297396146 0.1: 0.8024078545474003 0.01: 0.8442698363829548
+max mAP 0.5868069122969485
+Epoch 152 evaluation completed: total_loss: 11.760529 | mIoU: 0.542974| mIoU_2d: 0.670333 | total_eval_time: 5.516002
+start epoch
+................................................................total epoch time : 7.0524001121521 seconds
+Epoch 153 training completed: total_loss: 0.739055 | total_rpn_loss: 0.681863
+mAP: 0.544941501683658
+0.4: 0.6151136029212272 0.3: 0.6673178357172218 0.2: 0.7441914791318095 0.1: 0.8121830413700482 0.01: 0.8587008264825811
+max mAP 0.5868069122969485
+Epoch 153 evaluation completed: total_loss: 10.933188 | mIoU: 0.555929| mIoU_2d: 0.681546 | total_eval_time: 5.510367
+start epoch
+................................................................total epoch time : 7.163495779037476 seconds
+Epoch 154 training completed: total_loss: 0.738316 | total_rpn_loss: 0.678870
+mAP: 0.514717511327984
+0.4: 0.5965094058976305 0.3: 0.6519089636342529 0.2: 0.7084503985697559 0.1: 0.7853685383401469 0.01: 0.8279190007023964
+max mAP 0.5868069122969485
+Epoch 154 evaluation completed: total_loss: 12.656122 | mIoU: 0.553709| mIoU_2d: 0.680986 | total_eval_time: 5.618162
+start epoch
+................................................................total epoch time : 7.177462577819824 seconds
+Epoch 155 training completed: total_loss: 0.733698 | total_rpn_loss: 0.680500
+mAP: 0.5723973312917147
+0.4: 0.649101101557445 0.3: 0.6796801327405947 0.2: 0.7479663042475856 0.1: 0.8130513362319878 0.01: 0.8735519649345265
+max mAP 0.5868069122969485
+Epoch 155 evaluation completed: total_loss: 11.654182 | mIoU: 0.574626| mIoU_2d: 0.701423 | total_eval_time: 5.570265
+start epoch
+................................................................total epoch time : 7.170409679412842 seconds
+Epoch 156 training completed: total_loss: 0.736050 | total_rpn_loss: 0.678426
+mAP: 0.5547050979404555
+0.4: 0.6046285606903182 0.3: 0.6600705885905516 0.2: 0.735924413485037 0.1: 0.7971633959348164 0.01: 0.8535009114650464
+max mAP 0.5868069122969485
+Epoch 156 evaluation completed: total_loss: 10.966162 | mIoU: 0.575213| mIoU_2d: 0.697676 | total_eval_time: 5.500153
+start epoch
+................................................................total epoch time : 7.093780994415283 seconds
+Epoch 157 training completed: total_loss: 0.739475 | total_rpn_loss: 0.680581
+mAP: 0.4784198363560902
+0.4: 0.5551152214624 0.3: 0.6235382479574162 0.2: 0.6936032190169774 0.1: 0.8064176502039441 0.01: 0.8538316365657206
+max mAP 0.5868069122969485
+Epoch 157 evaluation completed: total_loss: 10.855356 | mIoU: 0.554298| mIoU_2d: 0.680230 | total_eval_time: 5.584562
+start epoch
+................................................................total epoch time : 7.286029577255249 seconds
+Epoch 158 training completed: total_loss: 0.737152 | total_rpn_loss: 0.680752
+mAP: 0.5172726334513635
+0.4: 0.5763185074869381 0.3: 0.649617269451741 0.2: 0.7350524666780023 0.1: 0.7894219295131952 0.01: 0.8620894255373233
+max mAP 0.5868069122969485
+Epoch 158 evaluation completed: total_loss: 11.067800 | mIoU: 0.563975| mIoU_2d: 0.694904 | total_eval_time: 5.540253
+start epoch
+................................................................total epoch time : 7.158598899841309 seconds
+Epoch 159 training completed: total_loss: 0.744661 | total_rpn_loss: 0.684139
+mAP: 0.5295057882308067
+0.4: 0.6042304320752646 0.3: 0.6700431525450251 0.2: 0.7518152721692734 0.1: 0.8327438517961793 0.01: 0.8829908724618214
+max mAP 0.5868069122969485
+Epoch 159 evaluation completed: total_loss: 11.030300 | mIoU: 0.566310| mIoU_2d: 0.692024 | total_eval_time: 5.658599
+start epoch
+................................................................total epoch time : 6.976374387741089 seconds
+Epoch 160 training completed: total_loss: 0.734129 | total_rpn_loss: 0.679453
+mAP: 0.5510038429338818
+0.4: 0.6357133096203417 0.3: 0.6946506360965409 0.2: 0.7662305387335253 0.1: 0.816155313360601 0.01: 0.8465638747909268
+max mAP 0.5868069122969485
+Epoch 160 evaluation completed: total_loss: 11.207636 | mIoU: 0.565070| mIoU_2d: 0.689697 | total_eval_time: 5.497153
+start epoch
+................................................................total epoch time : 7.109168767929077 seconds
+Epoch 161 training completed: total_loss: 0.739991 | total_rpn_loss: 0.681155
+mAP: 0.5512023526136363
+0.4: 0.6319485750234457 0.3: 0.6840537191585988 0.2: 0.736942885730646 0.1: 0.7889452119332309 0.01: 0.832477447624777
+max mAP 0.5868069122969485
+Epoch 161 evaluation completed: total_loss: 10.595010 | mIoU: 0.572351| mIoU_2d: 0.700897 | total_eval_time: 5.529462
+start epoch
+................................................................total epoch time : 7.196582555770874 seconds
+Epoch 162 training completed: total_loss: 0.735508 | total_rpn_loss: 0.678191
+mAP: 0.5402274883912093
+0.4: 0.6225249875252975 0.3: 0.6543660548941804 0.2: 0.7467648926829181 0.1: 0.8010223875215026 0.01: 0.8423916374702429
+max mAP 0.5868069122969485
+Epoch 162 evaluation completed: total_loss: 11.343844 | mIoU: 0.569849| mIoU_2d: 0.691189 | total_eval_time: 5.549460
+start epoch
+................................................................total epoch time : 7.168903827667236 seconds
+Epoch 163 training completed: total_loss: 0.736246 | total_rpn_loss: 0.680153
+mAP: 0.5318075421236859
+0.4: 0.623703112518467 0.3: 0.6684586842157348 0.2: 0.7323721567422321 0.1: 0.7966382676473726 0.01: 0.8476985874942535
+max mAP 0.5868069122969485
+Epoch 163 evaluation completed: total_loss: 10.636187 | mIoU: 0.573142| mIoU_2d: 0.697707 | total_eval_time: 5.545320
+start epoch
+................................................................total epoch time : 7.333474159240723 seconds
+Epoch 164 training completed: total_loss: 0.737005 | total_rpn_loss: 0.680000
+mAP: 0.5025412072128206
+0.4: 0.6166295682130162 0.3: 0.6679305111681104 0.2: 0.7383426825937717 0.1: 0.7939226976106586 0.01: 0.8353415835411078
+max mAP 0.5868069122969485
+Epoch 164 evaluation completed: total_loss: 11.142488 | mIoU: 0.548040| mIoU_2d: 0.674188 | total_eval_time: 5.597185
+start epoch
+................................................................total epoch time : 7.27325963973999 seconds
+Epoch 165 training completed: total_loss: 0.738272 | total_rpn_loss: 0.680572
+mAP: 0.5358472955111632
+0.4: 0.6058340598970431 0.3: 0.6792618896082068 0.2: 0.7656031291056039 0.1: 0.8144147621948585 0.01: 0.8692638110038488
+max mAP 0.5868069122969485
+Epoch 165 evaluation completed: total_loss: 12.247864 | mIoU: 0.564401| mIoU_2d: 0.689711 | total_eval_time: 5.620496
+start epoch
+................................................................total epoch time : 7.129543304443359 seconds
+Epoch 166 training completed: total_loss: 0.731494 | total_rpn_loss: 0.676175
+mAP: 0.5595795880863551
+0.4: 0.6278271986764948 0.3: 0.6719955101124991 0.2: 0.7447707097458198 0.1: 0.8218427427140181 0.01: 0.8758953851402407
+max mAP 0.5868069122969485
+Epoch 166 evaluation completed: total_loss: 11.472037 | mIoU: 0.565998| mIoU_2d: 0.683402 | total_eval_time: 5.485968
+start epoch
+................................................................total epoch time : 6.998575925827026 seconds
+Epoch 167 training completed: total_loss: 0.733804 | total_rpn_loss: 0.677996
+mAP: 0.597703881819888
+0.4: 0.6703683261336777 0.3: 0.7129993301133483 0.2: 0.7664803955153515 0.1: 0.8118166417661712 0.01: 0.8515658790427667
+max mAP 0.5868069122969485
+Epoch: 166 Recall: 1.0
+Epoch 167 evaluation completed: total_loss: 11.047384 | mIoU: 0.560688| mIoU_2d: 0.683293 | total_eval_time: 5.595140
+start epoch
+................................................................total epoch time : 7.115032196044922 seconds
+Epoch 168 training completed: total_loss: 0.732960 | total_rpn_loss: 0.678776
+mAP: 0.549227111444413
+0.4: 0.6144833370827194 0.3: 0.6842212703981533 0.2: 0.731339322698484 0.1: 0.7949277572968305 0.01: 0.8531526790145949
+max mAP 0.597703881819888
+Epoch 168 evaluation completed: total_loss: 10.763195 | mIoU: 0.572617| mIoU_2d: 0.696115 | total_eval_time: 5.519213
+start epoch
+................................................................total epoch time : 7.172191858291626 seconds
+Epoch 169 training completed: total_loss: 0.731518 | total_rpn_loss: 0.677860
+mAP: 0.577285176700169
+0.4: 0.6422963506904514 0.3: 0.6893471769629473 0.2: 0.7646678342408089 0.1: 0.8122722625699017 0.01: 0.8602311809541502
+max mAP 0.597703881819888
+Epoch 169 evaluation completed: total_loss: 11.081235 | mIoU: 0.576488| mIoU_2d: 0.695417 | total_eval_time: 5.574176
+start epoch
+................................................................total epoch time : 7.0720038414001465 seconds
+Epoch 170 training completed: total_loss: 0.734402 | total_rpn_loss: 0.677580
+mAP: 0.5310195287235855
+0.4: 0.5988862325055921 0.3: 0.6586125736214526 0.2: 0.7388153841738474 0.1: 0.8358651867322144 0.01: 0.8797064917855623
+max mAP 0.597703881819888
+Epoch 170 evaluation completed: total_loss: 10.670157 | mIoU: 0.567508| mIoU_2d: 0.691034 | total_eval_time: 5.552484
+start epoch
+................................................................total epoch time : 7.136762619018555 seconds
+Epoch 171 training completed: total_loss: 0.736049 | total_rpn_loss: 0.678543
+mAP: 0.5355989020027448
+0.4: 0.6278336809341125 0.3: 0.6597152811681272 0.2: 0.724391229646384 0.1: 0.797515981176281 0.01: 0.8520458501308478
+max mAP 0.597703881819888
+Epoch 171 evaluation completed: total_loss: 10.772862 | mIoU: 0.561854| mIoU_2d: 0.684440 | total_eval_time: 5.543947
+start epoch
+................................................................total epoch time : 7.209926605224609 seconds
+Epoch 172 training completed: total_loss: 0.730437 | total_rpn_loss: 0.675559
+mAP: 0.5348587047295094
+0.4: 0.6240911471586245 0.3: 0.6712993218803754 0.2: 0.7293279233459492 0.1: 0.7784442361982458 0.01: 0.8362472497070937
+max mAP 0.597703881819888
+Epoch 172 evaluation completed: total_loss: 10.897281 | mIoU: 0.564682| mIoU_2d: 0.688082 | total_eval_time: 5.535001
+start epoch
+................................................................total epoch time : 7.148268938064575 seconds
+Epoch 173 training completed: total_loss: 0.731570 | total_rpn_loss: 0.678535
+mAP: 0.48360268332746875
+0.4: 0.5775654649793533 0.3: 0.6362489040321626 0.2: 0.7180034934134129 0.1: 0.8026428024601984 0.01: 0.8619469315904473
+max mAP 0.597703881819888
+Epoch 173 evaluation completed: total_loss: 11.479157 | mIoU: 0.566737| mIoU_2d: 0.691361 | total_eval_time: 5.582854
+start epoch
+................................................................total epoch time : 7.13800048828125 seconds
+Epoch 174 training completed: total_loss: 0.729747 | total_rpn_loss: 0.676613
+mAP: 0.5431414610979889
+0.4: 0.6285317962744896 0.3: 0.6816839190299611 0.2: 0.7716577099784729 0.1: 0.8368849589894211 0.01: 0.8810302342366579
+max mAP 0.597703881819888
+Epoch 174 evaluation completed: total_loss: 10.727847 | mIoU: 0.560379| mIoU_2d: 0.684306 | total_eval_time: 5.546529
+start epoch
+................................................................total epoch time : 7.164628505706787 seconds
+Epoch 175 training completed: total_loss: 0.735566 | total_rpn_loss: 0.679112
+mAP: 0.4914426550726125
+0.4: 0.5790060957608223 0.3: 0.641019496333943 0.2: 0.6982179853812968 0.1: 0.7725282537577786 0.01: 0.8254542751583243
+max mAP 0.597703881819888
+Epoch 175 evaluation completed: total_loss: 11.466143 | mIoU: 0.560587| mIoU_2d: 0.687756 | total_eval_time: 5.542218
+start epoch
+................................................................total epoch time : 7.135199785232544 seconds
+Epoch 176 training completed: total_loss: 0.731349 | total_rpn_loss: 0.677789
+mAP: 0.5532664531032866
+0.4: 0.6336744682983992 0.3: 0.6795661289138245 0.2: 0.7467210517017501 0.1: 0.8131772791942325 0.01: 0.869262598420267
+max mAP 0.597703881819888
+Epoch 176 evaluation completed: total_loss: 10.917268 | mIoU: 0.575989| mIoU_2d: 0.697661 | total_eval_time: 5.522382
+start epoch
+................................................................total epoch time : 7.184194326400757 seconds
+Epoch 177 training completed: total_loss: 0.734304 | total_rpn_loss: 0.677727
+mAP: 0.5526938243288632
+0.4: 0.6651605496742171 0.3: 0.7056556627222096 0.2: 0.7613502524101408 0.1: 0.8256209783595891 0.01: 0.8736329222915695
+max mAP 0.597703881819888
+Epoch 177 evaluation completed: total_loss: 12.626791 | mIoU: 0.559728| mIoU_2d: 0.679795 | total_eval_time: 5.547571
+start epoch
+................................................................total epoch time : 7.179553985595703 seconds
+Epoch 178 training completed: total_loss: 0.734445 | total_rpn_loss: 0.678448
+mAP: 0.5336622047369481
+0.4: 0.5982799715634397 0.3: 0.6846264286937817 0.2: 0.7424130086123554 0.1: 0.8231167984642977 0.01: 0.8727006901548402
+max mAP 0.597703881819888
+Epoch 178 evaluation completed: total_loss: 11.948245 | mIoU: 0.571752| mIoU_2d: 0.697878 | total_eval_time: 5.570323
+start epoch
+................................................................total epoch time : 7.110654592514038 seconds
+Epoch 179 training completed: total_loss: 0.732066 | total_rpn_loss: 0.675960
+mAP: 0.5390556725479607
+0.4: 0.6425846767145388 0.3: 0.687396710279564 0.2: 0.7599637305265935 0.1: 0.8100688447388992 0.01: 0.8681020732735584
+max mAP 0.597703881819888
+Epoch 179 evaluation completed: total_loss: 11.581768 | mIoU: 0.575744| mIoU_2d: 0.701110 | total_eval_time: 5.521821
+start epoch
+................................................................total epoch time : 7.186347246170044 seconds
+Epoch 180 training completed: total_loss: 0.731238 | total_rpn_loss: 0.677359
+mAP: 0.5463009750870653
+0.4: 0.6032721572611232 0.3: 0.6583430893625412 0.2: 0.7282181820713663 0.1: 0.7968072827297901 0.01: 0.8651775239288535
+max mAP 0.597703881819888
+Epoch 180 evaluation completed: total_loss: 11.106868 | mIoU: 0.573030| mIoU_2d: 0.696526 | total_eval_time: 5.539322
+start epoch
+................................................................total epoch time : 7.16994309425354 seconds
+Epoch 181 training completed: total_loss: 0.729836 | total_rpn_loss: 0.676748
+mAP: 0.4951964222855651
+0.4: 0.5954464176785619 0.3: 0.6546196238910444 0.2: 0.7428704995104153 0.1: 0.8055226870745278 0.01: 0.861652668814329
+max mAP 0.597703881819888
+Epoch 181 evaluation completed: total_loss: 11.998730 | mIoU: 0.574593| mIoU_2d: 0.696832 | total_eval_time: 5.565389
+start epoch
+................................................................total epoch time : 7.194121599197388 seconds
+Epoch 182 training completed: total_loss: 0.729149 | total_rpn_loss: 0.675168
+mAP: 0.5379642321082914
+0.4: 0.6382599168073494 0.3: 0.6910140050739126 0.2: 0.7555945061636584 0.1: 0.8406463690234206 0.01: 0.8766079467361177
+max mAP 0.597703881819888
+Epoch 182 evaluation completed: total_loss: 10.215818 | mIoU: 0.557341| mIoU_2d: 0.686935 | total_eval_time: 5.561057
+start epoch
+................................................................total epoch time : 7.1530234813690186 seconds
+Epoch 183 training completed: total_loss: 0.730057 | total_rpn_loss: 0.675513
+mAP: 0.4790559124988019
+0.4: 0.6142599277816627 0.3: 0.6815296462949855 0.2: 0.7354075721722039 0.1: 0.7859572042350108 0.01: 0.838971325219162
+max mAP 0.597703881819888
+Epoch 183 evaluation completed: total_loss: 11.869123 | mIoU: 0.549993| mIoU_2d: 0.672767 | total_eval_time: 5.557602
+start epoch
+................................................................total epoch time : 7.278896331787109 seconds
+Epoch 184 training completed: total_loss: 0.732521 | total_rpn_loss: 0.676948
+mAP: 0.5507203512684082
+0.4: 0.6590722369735287 0.3: 0.7108749295975421 0.2: 0.7817050453387376 0.1: 0.8451913558117293 0.01: 0.8785745720548771
+max mAP 0.597703881819888
+Epoch 184 evaluation completed: total_loss: 11.335390 | mIoU: 0.572026| mIoU_2d: 0.698193 | total_eval_time: 5.691828
+start epoch
+................................................................total epoch time : 7.137589931488037 seconds
+Epoch 185 training completed: total_loss: 0.731621 | total_rpn_loss: 0.676340
+mAP: 0.5593384090372742
+0.4: 0.6302383138904201 0.3: 0.7052979678903912 0.2: 0.7531970850463602 0.1: 0.8217867143057268 0.01: 0.8595697059667451
+max mAP 0.597703881819888
+Epoch 185 evaluation completed: total_loss: 11.383320 | mIoU: 0.561176| mIoU_2d: 0.683625 | total_eval_time: 5.559769
+start epoch
+................................................................total epoch time : 7.178720474243164 seconds
+Epoch 186 training completed: total_loss: 0.729148 | total_rpn_loss: 0.677254
+mAP: 0.5230984372930676
+0.4: 0.620176403248898 0.3: 0.6790358437089822 0.2: 0.7419950816554993 0.1: 0.8168728031670223 0.01: 0.8648449032678652
+max mAP 0.597703881819888
+Epoch 186 evaluation completed: total_loss: 10.913187 | mIoU: 0.557720| mIoU_2d: 0.688043 | total_eval_time: 5.559000
+start epoch
+................................................................total epoch time : 7.167447566986084 seconds
+Epoch 187 training completed: total_loss: 0.731856 | total_rpn_loss: 0.676548
+mAP: 0.5352456766990247
+0.4: 0.6220277837095747 0.3: 0.6845369032937628 0.2: 0.7506900680237625 0.1: 0.8046262322742899 0.01: 0.866224645915674
+max mAP 0.597703881819888
+Epoch 187 evaluation completed: total_loss: 10.452805 | mIoU: 0.568386| mIoU_2d: 0.696370 | total_eval_time: 5.534043
+start epoch
+................................................................total epoch time : 7.0136027336120605 seconds
+Epoch 188 training completed: total_loss: 0.727513 | total_rpn_loss: 0.674492
+mAP: 0.5507301449068852
+0.4: 0.6387089917979352 0.3: 0.68431055516317 0.2: 0.7544266377603401 0.1: 0.8237042518035007 0.01: 0.8748377018022876
+max mAP 0.597703881819888
+Epoch 188 evaluation completed: total_loss: 11.639890 | mIoU: 0.575442| mIoU_2d: 0.705469 | total_eval_time: 5.597133
+start epoch
+................................................................total epoch time : 7.177439451217651 seconds
+Epoch 189 training completed: total_loss: 0.728515 | total_rpn_loss: 0.675621
+mAP: 0.5313870862431131
+0.4: 0.622363424762937 0.3: 0.6797376758795126 0.2: 0.7484435957266037 0.1: 0.819240614595127 0.01: 0.8505556108256207
+max mAP 0.597703881819888
+Epoch 189 evaluation completed: total_loss: 11.350058 | mIoU: 0.561303| mIoU_2d: 0.685556 | total_eval_time: 5.577591
+start epoch
+................................................................total epoch time : 7.213447093963623 seconds
+Epoch 190 training completed: total_loss: 0.729891 | total_rpn_loss: 0.674889
+mAP: 0.5266935175961744
+0.4: 0.621983973297718 0.3: 0.6855271216567701 0.2: 0.7555909965521154 0.1: 0.8463325367095279 0.01: 0.8731457553686589
+max mAP 0.597703881819888
+Epoch 190 evaluation completed: total_loss: 11.428319 | mIoU: 0.571300| mIoU_2d: 0.702082 | total_eval_time: 5.626557
+start epoch
+................................................................total epoch time : 7.132687330245972 seconds
+Epoch 191 training completed: total_loss: 0.732229 | total_rpn_loss: 0.675793
+mAP: 0.5055462401661837
+0.4: 0.5944151100197115 0.3: 0.6668237789807047 0.2: 0.732199805109297 0.1: 0.8145185195835438 0.01: 0.8519884518797387
+max mAP 0.597703881819888
+Epoch 191 evaluation completed: total_loss: 10.821664 | mIoU: 0.551913| mIoU_2d: 0.676045 | total_eval_time: 5.504876
+start epoch
+................................................................total epoch time : 6.925002336502075 seconds
+Epoch 192 training completed: total_loss: 0.726338 | total_rpn_loss: 0.673942
+mAP: 0.5335902683003428
+0.4: 0.5942083388466737 0.3: 0.6580438154563673 0.2: 0.7208090970501807 0.1: 0.8078813593382667 0.01: 0.8614548594823751
+max mAP 0.597703881819888
+Epoch 192 evaluation completed: total_loss: 10.660825 | mIoU: 0.562284| mIoU_2d: 0.691112 | total_eval_time: 5.613982
+start epoch
+................................................................total epoch time : 6.942042350769043 seconds
+Epoch 193 training completed: total_loss: 0.729030 | total_rpn_loss: 0.677097
+mAP: 0.5013338087901364
+0.4: 0.6160649724018183 0.3: 0.6747589820226202 0.2: 0.7618644230615452 0.1: 0.828788459167727 0.01: 0.8656755335293895
+max mAP 0.597703881819888
+Epoch 193 evaluation completed: total_loss: 11.097301 | mIoU: 0.567750| mIoU_2d: 0.688121 | total_eval_time: 5.483675
+start epoch
+................................................................total epoch time : 6.933048725128174 seconds
+Epoch 194 training completed: total_loss: 0.725923 | total_rpn_loss: 0.672638
+mAP: 0.5640033664191572
+0.4: 0.6450865150452225 0.3: 0.7036435343496559 0.2: 0.7746345953250316 0.1: 0.8476700816978274 0.01: 0.8916694379659562
+max mAP 0.597703881819888
+Epoch 194 evaluation completed: total_loss: 11.311111 | mIoU: 0.574588| mIoU_2d: 0.693431 | total_eval_time: 5.470988
+start epoch
+................................................................total epoch time : 6.9937660694122314 seconds
+Epoch 195 training completed: total_loss: 0.731144 | total_rpn_loss: 0.676664
+mAP: 0.5401541095660894
+0.4: 0.6171885452396612 0.3: 0.6804232594125424 0.2: 0.7600709139155949 0.1: 0.8236006114284423 0.01: 0.8638294864087643
+max mAP 0.597703881819888
+Epoch 195 evaluation completed: total_loss: 11.886618 | mIoU: 0.575379| mIoU_2d: 0.699333 | total_eval_time: 5.481961
+start epoch
+................................................................total epoch time : 6.929260492324829 seconds
+Epoch 196 training completed: total_loss: 0.728429 | total_rpn_loss: 0.676181
+mAP: 0.5695935372339379
+0.4: 0.6474480147924254 0.3: 0.7059300114992967 0.2: 0.7645047698934719 0.1: 0.8165156612957788 0.01: 0.865547573645093
+max mAP 0.597703881819888
+Epoch 196 evaluation completed: total_loss: 11.214600 | mIoU: 0.569112| mIoU_2d: 0.693513 | total_eval_time: 5.472460
+start epoch
+................................................................total epoch time : 7.11627984046936 seconds
+Epoch 197 training completed: total_loss: 0.724652 | total_rpn_loss: 0.672772
+mAP: 0.5393042680582434
+0.4: 0.6151358815919828 0.3: 0.6805988062653109 0.2: 0.7545718276980761 0.1: 0.8226789491425731 0.01: 0.8696721457945827
+max mAP 0.597703881819888
+Epoch 197 evaluation completed: total_loss: 11.462988 | mIoU: 0.569445| mIoU_2d: 0.698118 | total_eval_time: 5.477320
+start epoch
+................................................................total epoch time : 7.086132049560547 seconds
+Epoch 198 training completed: total_loss: 0.727729 | total_rpn_loss: 0.674717
+mAP: 0.5687128610828898
+0.4: 0.6277440292118733 0.3: 0.6952932937871321 0.2: 0.7665815990124011 0.1: 0.8535185568097637 0.01: 0.8860733380895607
+max mAP 0.597703881819888
+Epoch 198 evaluation completed: total_loss: 11.606315 | mIoU: 0.566944| mIoU_2d: 0.690253 | total_eval_time: 5.628147
+start epoch
+................................................................total epoch time : 7.144173622131348 seconds
+Epoch 199 training completed: total_loss: 0.726785 | total_rpn_loss: 0.674217
+mAP: 0.5182983170674244
+0.4: 0.6390394780932728 0.3: 0.6781627301923886 0.2: 0.7551624330018589 0.1: 0.8194884902398573 0.01: 0.869027376666398
+max mAP 0.597703881819888
+Epoch 199 evaluation completed: total_loss: 10.691687 | mIoU: 0.569874| mIoU_2d: 0.694960 | total_eval_time: 5.516446
+start epoch
+................................................................total epoch time : 7.209516763687134 seconds
+Epoch 200 training completed: total_loss: 0.727637 | total_rpn_loss: 0.673549
+mAP: 0.5028564260566363
+0.4: 0.5876272418214648 0.3: 0.6446861833944182 0.2: 0.7486738518029848 0.1: 0.8225456530708807 0.01: 0.8689046466885825
+max mAP 0.597703881819888
+Epoch 200 evaluation completed: total_loss: 11.565097 | mIoU: 0.575730| mIoU_2d: 0.701261 | total_eval_time: 5.555001
+start epoch
+................................................................total epoch time : 7.141767978668213 seconds
+Epoch 201 training completed: total_loss: 0.725465 | total_rpn_loss: 0.673603
+mAP: 0.578550207943827
+0.4: 0.6312617411852043 0.3: 0.6966855311776732 0.2: 0.7657460058894604 0.1: 0.8162264925244175 0.01: 0.8489393657388354
+max mAP 0.597703881819888
+Epoch 201 evaluation completed: total_loss: 11.262154 | mIoU: 0.566471| mIoU_2d: 0.693110 | total_eval_time: 5.553738
+start epoch
+................................................................total epoch time : 7.160733461380005 seconds
+Epoch 202 training completed: total_loss: 0.722412 | total_rpn_loss: 0.670217
+mAP: 0.544357596632358
+0.4: 0.6455765768325602 0.3: 0.6906926920240368 0.2: 0.7524834815323531 0.1: 0.8159803195000942 0.01: 0.8578905329680748
+max mAP 0.597703881819888
+Epoch 202 evaluation completed: total_loss: 11.571040 | mIoU: 0.559318| mIoU_2d: 0.688490 | total_eval_time: 5.570055
+start epoch
+................................................................total epoch time : 7.148620128631592 seconds
+Epoch 203 training completed: total_loss: 0.729424 | total_rpn_loss: 0.674711
+mAP: 0.536835746550256
+0.4: 0.6107823444685492 0.3: 0.6831074577794205 0.2: 0.7450583570493063 0.1: 0.8129543798548725 0.01: 0.8664665117814765
+max mAP 0.597703881819888
+Epoch 203 evaluation completed: total_loss: 10.621194 | mIoU: 0.574205| mIoU_2d: 0.701677 | total_eval_time: 5.500701
+start epoch
+................................................................total epoch time : 6.934889793395996 seconds
+Epoch 204 training completed: total_loss: 0.724218 | total_rpn_loss: 0.674340
+mAP: 0.4953627920761233
+0.4: 0.5874547518173969 0.3: 0.6587517282036404 0.2: 0.7486298626062254 0.1: 0.8098918399055776 0.01: 0.8526927569258577
+max mAP 0.597703881819888
+Epoch 204 evaluation completed: total_loss: 12.263892 | mIoU: 0.569535| mIoU_2d: 0.695975 | total_eval_time: 5.556568
+start epoch
+................................................................total epoch time : 7.095433712005615 seconds
+Epoch 205 training completed: total_loss: 0.723596 | total_rpn_loss: 0.673811
+mAP: 0.5293893095368407
+0.4: 0.6092074989778603 0.3: 0.6752106466352971 0.2: 0.7431406267231639 0.1: 0.8154668349371028 0.01: 0.8524869352452319
+max mAP 0.597703881819888
+Epoch 205 evaluation completed: total_loss: 11.401942 | mIoU: 0.571431| mIoU_2d: 0.694813 | total_eval_time: 5.534614
+start epoch
+................................................................total epoch time : 6.996423721313477 seconds
+Epoch 206 training completed: total_loss: 0.729047 | total_rpn_loss: 0.674678
+mAP: 0.5304735753952556
+0.4: 0.590325664782121 0.3: 0.6491438228346365 0.2: 0.7301137788853761 0.1: 0.8085576863003767 0.01: 0.8592156204481689
+max mAP 0.597703881819888
+Epoch 206 evaluation completed: total_loss: 12.458041 | mIoU: 0.561503| mIoU_2d: 0.688106 | total_eval_time: 5.551665
+start epoch
+................................................................total epoch time : 7.03351092338562 seconds
+Epoch 207 training completed: total_loss: 0.723892 | total_rpn_loss: 0.672987
+mAP: 0.5337987409445915
+0.4: 0.613139613078682 0.3: 0.6712797553826628 0.2: 0.7520095692876689 0.1: 0.8011831378469038 0.01: 0.8535743563163093
+max mAP 0.597703881819888
+Epoch 207 evaluation completed: total_loss: 11.232828 | mIoU: 0.567053| mIoU_2d: 0.691294 | total_eval_time: 5.518775
+start epoch
+................................................................total epoch time : 6.974940776824951 seconds
+Epoch 208 training completed: total_loss: 0.724577 | total_rpn_loss: 0.673048
+mAP: 0.5242734326730527
+0.4: 0.6072276874862825 0.3: 0.6644905746581782 0.2: 0.7357227488860928 0.1: 0.8260435441568785 0.01: 0.8716825480887337
+max mAP 0.597703881819888
+Epoch 208 evaluation completed: total_loss: 11.366332 | mIoU: 0.573025| mIoU_2d: 0.699169 | total_eval_time: 5.489139
+start epoch
+................................................................total epoch time : 6.978138446807861 seconds
+Epoch 209 training completed: total_loss: 0.726596 | total_rpn_loss: 0.676026
+mAP: 0.48278096679585386
+0.4: 0.5743933779222948 0.3: 0.6620069505644446 0.2: 0.7517687516195289 0.1: 0.827747166583421 0.01: 0.8668469063140701
+max mAP 0.597703881819888
+Epoch 209 evaluation completed: total_loss: 11.940041 | mIoU: 0.564314| mIoU_2d: 0.689112 | total_eval_time: 5.537230
+start epoch
+................................................................total epoch time : 7.267902374267578 seconds
+Epoch 210 training completed: total_loss: 0.726636 | total_rpn_loss: 0.675127
+mAP: 0.54753368514514
+0.4: 0.6395561483961657 0.3: 0.6884429511858781 0.2: 0.7565593300893895 0.1: 0.8249194479371448 0.01: 0.8557928506239254
+max mAP 0.597703881819888
+Epoch 210 evaluation completed: total_loss: 11.025855 | mIoU: 0.575538| mIoU_2d: 0.696073 | total_eval_time: 5.632082
+start epoch
+................................................................total epoch time : 7.301790714263916 seconds
+Epoch 211 training completed: total_loss: 0.727067 | total_rpn_loss: 0.674478
+mAP: 0.5245187852469267
+0.4: 0.6405494837847203 0.3: 0.6968154990613951 0.2: 0.7823761320712233 0.1: 0.8377095884424954 0.01: 0.8705374955343134
+max mAP 0.597703881819888
+Epoch 211 evaluation completed: total_loss: 12.212145 | mIoU: 0.541271| mIoU_2d: 0.669884 | total_eval_time: 5.601439
+start epoch
+................................................................total epoch time : 7.24596905708313 seconds
+Epoch 212 training completed: total_loss: 0.722029 | total_rpn_loss: 0.672081
+mAP: 0.5074966410029447
+0.4: 0.571696363282358 0.3: 0.640930716584109 0.2: 0.7467449861161821 0.1: 0.8267126841142904 0.01: 0.8744650984232609
+max mAP 0.597703881819888
+Epoch 212 evaluation completed: total_loss: 13.182202 | mIoU: 0.574104| mIoU_2d: 0.698722 | total_eval_time: 5.577876
+start epoch
+................................................................total epoch time : 7.177859783172607 seconds
+Epoch 213 training completed: total_loss: 0.721015 | total_rpn_loss: 0.671550
+mAP: 0.4717194443718003
+0.4: 0.5567478102042067 0.3: 0.6228862581556719 0.2: 0.731482419982801 0.1: 0.7903376420046517 0.01: 0.8246862285313482
+max mAP 0.597703881819888
+Epoch 213 evaluation completed: total_loss: 11.262539 | mIoU: 0.566271| mIoU_2d: 0.692616 | total_eval_time: 5.573669
+start epoch
+................................................................total epoch time : 7.29293966293335 seconds
+Epoch 214 training completed: total_loss: 0.724468 | total_rpn_loss: 0.674107
+mAP: 0.5328928739414752
+0.4: 0.6148025156747045 0.3: 0.6751617239455325 0.2: 0.7640510845825156 0.1: 0.8112938504596398 0.01: 0.8480282729200839
+max mAP 0.597703881819888
+Epoch 214 evaluation completed: total_loss: 11.459176 | mIoU: 0.573869| mIoU_2d: 0.697436 | total_eval_time: 5.555399
+start epoch
+................................................................total epoch time : 7.1837663650512695 seconds
+Epoch 215 training completed: total_loss: 0.724825 | total_rpn_loss: 0.673874
+mAP: 0.47163894804819495
+0.4: 0.5771504927819086 0.3: 0.6385734507725539 0.2: 0.7331169662657044 0.1: 0.7930928320607383 0.01: 0.8369792786955187
+max mAP 0.597703881819888
+Epoch 215 evaluation completed: total_loss: 10.865478 | mIoU: 0.549259| mIoU_2d: 0.675674 | total_eval_time: 5.654708
+start epoch
+................................................................total epoch time : 7.031182765960693 seconds
+Epoch 216 training completed: total_loss: 0.723308 | total_rpn_loss: 0.674721
+mAP: 0.5906371847143628
+0.4: 0.6555940331530018 0.3: 0.7063279304029823 0.2: 0.780278342583672 0.1: 0.8350677162586411 0.01: 0.8702977684543615
+max mAP 0.597703881819888
+Epoch 216 evaluation completed: total_loss: 11.797538 | mIoU: 0.569314| mIoU_2d: 0.696160 | total_eval_time: 5.519915
+start epoch
+................................................................total epoch time : 7.15052056312561 seconds
+Epoch 217 training completed: total_loss: 0.722534 | total_rpn_loss: 0.671382
+mAP: 0.5026513252540322
+0.4: 0.6172595071575294 0.3: 0.6676834862099911 0.2: 0.7517716244203322 0.1: 0.8134816030996693 0.01: 0.8541669881095597
+max mAP 0.597703881819888
+Epoch 217 evaluation completed: total_loss: 10.550056 | mIoU: 0.573692| mIoU_2d: 0.695493 | total_eval_time: 5.525056
+start epoch
+................................................................total epoch time : 7.213878631591797 seconds
+Epoch 218 training completed: total_loss: 0.722560 | total_rpn_loss: 0.671338
+mAP: 0.5717161359657925
+0.4: 0.645780605124644 0.3: 0.704559731219933 0.2: 0.75977954294545 0.1: 0.8389487688694405 0.01: 0.8784009392637768
+max mAP 0.597703881819888
+Epoch 218 evaluation completed: total_loss: 12.665359 | mIoU: 0.570140| mIoU_2d: 0.699378 | total_eval_time: 5.611328
+start epoch
+................................................................total epoch time : 7.178990125656128 seconds
+Epoch 219 training completed: total_loss: 0.723908 | total_rpn_loss: 0.672562
+mAP: 0.5014202724288912
+0.4: 0.5780238108657523 0.3: 0.6605911557130798 0.2: 0.727272223233162 0.1: 0.7865495987486419 0.01: 0.8358759242611801
+max mAP 0.597703881819888
+Epoch 219 evaluation completed: total_loss: 12.684523 | mIoU: 0.574578| mIoU_2d: 0.698257 | total_eval_time: 5.536842
+start epoch
+................................................................total epoch time : 7.17069673538208 seconds
+Epoch 220 training completed: total_loss: 0.726148 | total_rpn_loss: 0.671889
+mAP: 0.5290507490248061
+0.4: 0.5926577035677325 0.3: 0.6547659657639414 0.2: 0.7469353217770551 0.1: 0.8220726934239861 0.01: 0.8719328268077791
+max mAP 0.597703881819888
+Epoch 220 evaluation completed: total_loss: 11.549651 | mIoU: 0.574885| mIoU_2d: 0.698435 | total_eval_time: 5.528131
+start epoch
+................................................................total epoch time : 7.149334907531738 seconds
+Epoch 221 training completed: total_loss: 0.725522 | total_rpn_loss: 0.673324
+mAP: 0.5467259712668655
+0.4: 0.6262444895579665 0.3: 0.7053567544427507 0.2: 0.7656822751578598 0.1: 0.8239563858653203 0.01: 0.8540104850817838
+max mAP 0.597703881819888
+Epoch 221 evaluation completed: total_loss: 11.176988 | mIoU: 0.570464| mIoU_2d: 0.697554 | total_eval_time: 5.564326
+start epoch
+................................................................total epoch time : 7.0876641273498535 seconds
+Epoch 222 training completed: total_loss: 0.723709 | total_rpn_loss: 0.673573
+mAP: 0.46861481844074665
+0.4: 0.5686590918336819 0.3: 0.6380887710552048 0.2: 0.71496447024601 0.1: 0.7858318119147245 0.01: 0.8275539511544433
+max mAP 0.597703881819888
+Epoch 222 evaluation completed: total_loss: 11.123379 | mIoU: 0.557930| mIoU_2d: 0.687940 | total_eval_time: 5.646885
+start epoch
+................................................................total epoch time : 7.050980806350708 seconds
+Epoch 223 training completed: total_loss: 0.724911 | total_rpn_loss: 0.673121
+mAP: 0.5396332708033662
+0.4: 0.6108850538092268 0.3: 0.6736991929923494 0.2: 0.7391349236849103 0.1: 0.8427040206264508 0.01: 0.882787275559308
+max mAP 0.597703881819888
+Epoch 223 evaluation completed: total_loss: 11.060061 | mIoU: 0.576730| mIoU_2d: 0.705716 | total_eval_time: 5.588443
+start epoch
+................................................................total epoch time : 7.084004163742065 seconds
+Epoch 224 training completed: total_loss: 0.722054 | total_rpn_loss: 0.671569
+mAP: 0.5308982400352642
+0.4: 0.6023527738397191 0.3: 0.6770121692266943 0.2: 0.7415300639231497 0.1: 0.798776079917281 0.01: 0.8414996523926715
+max mAP 0.597703881819888
+Epoch 224 evaluation completed: total_loss: 11.585598 | mIoU: 0.582604| mIoU_2d: 0.706432 | total_eval_time: 5.496322
+start epoch
+................................................................total epoch time : 7.014699459075928 seconds
+Epoch 225 training completed: total_loss: 0.720409 | total_rpn_loss: 0.669129
+mAP: 0.4627963987245499
+0.4: 0.5467772148290279 0.3: 0.6248289736434884 0.2: 0.7386126505664964 0.1: 0.812752268990303 0.01: 0.8702257495112945
+max mAP 0.597703881819888
+Epoch 225 evaluation completed: total_loss: 11.320583 | mIoU: 0.567214| mIoU_2d: 0.690507 | total_eval_time: 5.496964
+start epoch
+................................................................total epoch time : 6.954340219497681 seconds
+Epoch 226 training completed: total_loss: 0.719496 | total_rpn_loss: 0.669410
+mAP: 0.49416038734866086
+0.4: 0.574469687115346 0.3: 0.6844976200055555 0.2: 0.7792223510856631 0.1: 0.8434162328120441 0.01: 0.8876551096540881
+max mAP 0.597703881819888
+Epoch 226 evaluation completed: total_loss: 12.247519 | mIoU: 0.570891| mIoU_2d: 0.695426 | total_eval_time: 5.519080
+start epoch
+................................................................total epoch time : 6.95297384262085 seconds
+Epoch 227 training completed: total_loss: 0.719137 | total_rpn_loss: 0.670615
+mAP: 0.5837000626450052
+0.4: 0.6496922884213577 0.3: 0.7049083404564106 0.2: 0.7716848845857165 0.1: 0.8324947572400461 0.01: 0.8749200251953757
+max mAP 0.597703881819888
+Epoch 227 evaluation completed: total_loss: 12.403756 | mIoU: 0.564208| mIoU_2d: 0.686936 | total_eval_time: 5.540894
+start epoch
+................................................................total epoch time : 7.0351645946502686 seconds
+Epoch 228 training completed: total_loss: 0.724034 | total_rpn_loss: 0.674237
+mAP: 0.5301765855367359
+0.4: 0.6187184858695441 0.3: 0.6730320304432307 0.2: 0.7297533959195734 0.1: 0.7974926017433275 0.01: 0.8403986636943215
+max mAP 0.597703881819888
+Epoch 228 evaluation completed: total_loss: 12.296084 | mIoU: 0.580087| mIoU_2d: 0.704312 | total_eval_time: 5.613172
+start epoch
+................................................................total epoch time : 7.011879920959473 seconds
+Epoch 229 training completed: total_loss: 0.722693 | total_rpn_loss: 0.673402
+mAP: 0.49454054341559767
+0.4: 0.5899934564609469 0.3: 0.656638050711162 0.2: 0.7369585319787693 0.1: 0.7951686808488514 0.01: 0.8487271354490759
+max mAP 0.597703881819888
+Epoch 229 evaluation completed: total_loss: 11.503516 | mIoU: 0.562845| mIoU_2d: 0.691780 | total_eval_time: 5.526857
+start epoch
+................................................................total epoch time : 7.06706166267395 seconds
+Epoch 230 training completed: total_loss: 0.723230 | total_rpn_loss: 0.673431
+mAP: 0.5503753710809414
+0.4: 0.639916953868958 0.3: 0.7095424062301287 0.2: 0.7831542816140126 0.1: 0.8234760138514019 0.01: 0.8540017722136761
+max mAP 0.597703881819888
+Epoch 230 evaluation completed: total_loss: 11.659869 | mIoU: 0.568714| mIoU_2d: 0.696651 | total_eval_time: 5.572156
+start epoch
+................................................................total epoch time : 6.962037563323975 seconds
+Epoch 231 training completed: total_loss: 0.724653 | total_rpn_loss: 0.671695
+mAP: 0.5399581325713282
+0.4: 0.6138990310691934 0.3: 0.6715159271915438 0.2: 0.7485180997231837 0.1: 0.7952595007742288 0.01: 0.8408085407853437
+max mAP 0.597703881819888
+Epoch 231 evaluation completed: total_loss: 11.700334 | mIoU: 0.579388| mIoU_2d: 0.697620 | total_eval_time: 5.473296
+start epoch
+................................................................total epoch time : 6.918453693389893 seconds
+Epoch 232 training completed: total_loss: 0.718451 | total_rpn_loss: 0.670850
+mAP: 0.5694652503125924
+0.4: 0.6288681375397025 0.3: 0.6716093204767812 0.2: 0.7341576199358351 0.1: 0.7924381121524597 0.01: 0.8390806284367736
+max mAP 0.597703881819888
+Epoch 232 evaluation completed: total_loss: 11.327058 | mIoU: 0.580165| mIoU_2d: 0.700990 | total_eval_time: 5.592041
+start epoch
+................................................................total epoch time : 6.912115573883057 seconds
+Epoch 233 training completed: total_loss: 0.719038 | total_rpn_loss: 0.670365
+mAP: 0.5676153484678861
+0.4: 0.644209534573281 0.3: 0.6861707204371066 0.2: 0.7487133039380028 0.1: 0.8175879429741805 0.01: 0.8618350618442081
+max mAP 0.597703881819888
+Epoch 233 evaluation completed: total_loss: 10.886046 | mIoU: 0.572256| mIoU_2d: 0.694457 | total_eval_time: 5.477171
+start epoch
+................................................................total epoch time : 6.918227910995483 seconds
+Epoch 234 training completed: total_loss: 0.720485 | total_rpn_loss: 0.669524
+mAP: 0.5468232479288742
+0.4: 0.6371788614322212 0.3: 0.7008698878599068 0.2: 0.7728081423398269 0.1: 0.8250476311402674 0.01: 0.8584186560018279
+max mAP 0.597703881819888
+Epoch 234 evaluation completed: total_loss: 11.220887 | mIoU: 0.570657| mIoU_2d: 0.692474 | total_eval_time: 5.453304
+start epoch
+................................................................total epoch time : 7.084992170333862 seconds
+Epoch 235 training completed: total_loss: 0.720380 | total_rpn_loss: 0.670320
+mAP: 0.559007439984183
+0.4: 0.6452703172558022 0.3: 0.7039591265581987 0.2: 0.7676304533433149 0.1: 0.8340492564662635 0.01: 0.8719100133962783
+max mAP 0.597703881819888
+Epoch 235 evaluation completed: total_loss: 11.041397 | mIoU: 0.573157| mIoU_2d: 0.698932 | total_eval_time: 5.549841
+start epoch
+................................................................total epoch time : 7.159010648727417 seconds
+Epoch 236 training completed: total_loss: 0.724479 | total_rpn_loss: 0.673685
+mAP: 0.5261095518736351
+0.4: 0.5917598116777012 0.3: 0.6639793629533809 0.2: 0.7274553266091572 0.1: 0.8162459189496208 0.01: 0.8652157838727582
+max mAP 0.597703881819888
+Epoch 236 evaluation completed: total_loss: 11.782289 | mIoU: 0.584373| mIoU_2d: 0.706454 | total_eval_time: 5.666903
+start epoch
+................................................................total epoch time : 7.111018657684326 seconds
+Epoch 237 training completed: total_loss: 0.723481 | total_rpn_loss: 0.673936
+mAP: 0.5010838323756522
+0.4: 0.5795428682318416 0.3: 0.6435062096561418 0.2: 0.7163175267651815 0.1: 0.8045797496872612 0.01: 0.8554282634920766
+max mAP 0.597703881819888
+Epoch 237 evaluation completed: total_loss: 10.922648 | mIoU: 0.574413| mIoU_2d: 0.697116 | total_eval_time: 5.518989
+start epoch
+................................................................total epoch time : 7.0668785572052 seconds
+Epoch 238 training completed: total_loss: 0.719279 | total_rpn_loss: 0.671774
+mAP: 0.4982462186966563
+0.4: 0.6051161656670373 0.3: 0.6654779625874501 0.2: 0.7501200785376317 0.1: 0.8283719307411441 0.01: 0.8699541819100881
+max mAP 0.597703881819888
+Epoch 238 evaluation completed: total_loss: 11.161463 | mIoU: 0.581198| mIoU_2d: 0.705433 | total_eval_time: 5.529638
+start epoch
+................................................................total epoch time : 7.16283917427063 seconds
+Epoch 239 training completed: total_loss: 0.718191 | total_rpn_loss: 0.670808
+mAP: 0.5519512052470763
+0.4: 0.631670951944604 0.3: 0.6739430091666553 0.2: 0.7612800084913717 0.1: 0.8320291381964824 0.01: 0.8632953383540548
+max mAP 0.597703881819888
+Epoch 239 evaluation completed: total_loss: 11.050272 | mIoU: 0.563766| mIoU_2d: 0.694266 | total_eval_time: 5.569173
+start epoch
+................................................................total epoch time : 7.02331280708313 seconds
+Epoch 240 training completed: total_loss: 0.718119 | total_rpn_loss: 0.670558
+mAP: 0.5207082162372891
+0.4: 0.6136442767682441 0.3: 0.6718369484995789 0.2: 0.7431768453001435 0.1: 0.8187767122420961 0.01: 0.8509651132120788
+max mAP 0.597703881819888
+Epoch 240 evaluation completed: total_loss: 11.564111 | mIoU: 0.544623| mIoU_2d: 0.674414 | total_eval_time: 5.512472
+start epoch
+................................................................total epoch time : 7.085564136505127 seconds
+Epoch 241 training completed: total_loss: 0.722360 | total_rpn_loss: 0.671567
+mAP: 0.5685340709816527
+0.4: 0.6660521481157091 0.3: 0.7435398223549834 0.2: 0.7977561238431308 0.1: 0.8562978713897843 0.01: 0.893338978756372
+max mAP 0.597703881819888
+Epoch 241 evaluation completed: total_loss: 11.564451 | mIoU: 0.580628| mIoU_2d: 0.704267 | total_eval_time: 5.584126
+start epoch
+................................................................total epoch time : 6.972845077514648 seconds
+Epoch 242 training completed: total_loss: 0.720231 | total_rpn_loss: 0.672728
+mAP: 0.5636478459621879
+0.4: 0.6465259451596373 0.3: 0.6814467764873505 0.2: 0.7548122144880428 0.1: 0.8175500328462685 0.01: 0.8664049393692631
+max mAP 0.597703881819888
+Epoch 242 evaluation completed: total_loss: 11.940183 | mIoU: 0.570136| mIoU_2d: 0.694808 | total_eval_time: 5.531145
+start epoch
+................................................................total epoch time : 7.022189378738403 seconds
+Epoch 243 training completed: total_loss: 0.717188 | total_rpn_loss: 0.670289
+mAP: 0.5474074779251454
+0.4: 0.6468398262503187 0.3: 0.7042839937071549 0.2: 0.7572765999892415 0.1: 0.8246024527236419 0.01: 0.8725431428807484
+max mAP 0.597703881819888
+Epoch 243 evaluation completed: total_loss: 11.014265 | mIoU: 0.564259| mIoU_2d: 0.690081 | total_eval_time: 5.511773
+start epoch
+................................................................total epoch time : 6.955604553222656 seconds
+Epoch 244 training completed: total_loss: 0.721037 | total_rpn_loss: 0.671127
+mAP: 0.5455671524579406
+0.4: 0.6259256019176194 0.3: 0.6875816770538014 0.2: 0.767901321248132 0.1: 0.8356864761172865 0.01: 0.8665317590876767
+max mAP 0.597703881819888
+Epoch 244 evaluation completed: total_loss: 10.783050 | mIoU: 0.574348| mIoU_2d: 0.701953 | total_eval_time: 5.445540
+start epoch
+................................................................total epoch time : 6.970948696136475 seconds
+Epoch 245 training completed: total_loss: 0.716226 | total_rpn_loss: 0.667387
+mAP: 0.5188563296796949
+0.4: 0.6103122182060925 0.3: 0.685181067949391 0.2: 0.7549031499524042 0.1: 0.8386729687650084 0.01: 0.8666497253699837
+max mAP 0.597703881819888
+Epoch 245 evaluation completed: total_loss: 11.427406 | mIoU: 0.569894| mIoU_2d: 0.693140 | total_eval_time: 5.500080
+start epoch
+................................................................total epoch time : 6.924667835235596 seconds
+Epoch 246 training completed: total_loss: 0.719359 | total_rpn_loss: 0.669924
+mAP: 0.5149180781008574
+0.4: 0.6354742433312139 0.3: 0.6840288885021711 0.2: 0.7584936386557826 0.1: 0.825393286370916 0.01: 0.8776012758006257
+max mAP 0.597703881819888
+Epoch 246 evaluation completed: total_loss: 10.952366 | mIoU: 0.558381| mIoU_2d: 0.681545 | total_eval_time: 5.467435
+start epoch
+................................................................total epoch time : 6.9033098220825195 seconds
+Epoch 247 training completed: total_loss: 0.717481 | total_rpn_loss: 0.670191
+mAP: 0.5668069096006639
+0.4: 0.6400048745581854 0.3: 0.693991596568689 0.2: 0.7501822905412112 0.1: 0.8156824739508147 0.01: 0.8514014945147017
+max mAP 0.597703881819888
+Epoch 247 evaluation completed: total_loss: 12.285942 | mIoU: 0.573130| mIoU_2d: 0.691904 | total_eval_time: 5.632973
+start epoch
+................................................................total epoch time : 7.020086288452148 seconds
+Epoch 248 training completed: total_loss: 0.716696 | total_rpn_loss: 0.668516
+mAP: 0.5297231372438196
+0.4: 0.6327624253260934 0.3: 0.6990934470240276 0.2: 0.7455972809246981 0.1: 0.8038701693881117 0.01: 0.8478198194848853
+max mAP 0.597703881819888
+Epoch 248 evaluation completed: total_loss: 11.224483 | mIoU: 0.573990| mIoU_2d: 0.695183 | total_eval_time: 5.514038
+start epoch
+................................................................total epoch time : 7.130128860473633 seconds
+Epoch 249 training completed: total_loss: 0.715045 | total_rpn_loss: 0.669002
+mAP: 0.548188282467765
+0.4: 0.6473101755208649 0.3: 0.6981698979799109 0.2: 0.7812677274790386 0.1: 0.8282181284744446 0.01: 0.8694130617963503
+max mAP 0.597703881819888
+Epoch 249 evaluation completed: total_loss: 11.825839 | mIoU: 0.580310| mIoU_2d: 0.703056 | total_eval_time: 5.558942
+start epoch
+................................................................total epoch time : 7.103018522262573 seconds
+Epoch 250 training completed: total_loss: 0.716815 | total_rpn_loss: 0.669380
+mAP: 0.5461940827640578
+0.4: 0.6201035118328034 0.3: 0.6883523703890462 0.2: 0.7613698631030192 0.1: 0.837677668445791 0.01: 0.8670665714144962
+max mAP 0.597703881819888
+Epoch 250 evaluation completed: total_loss: 12.748591 | mIoU: 0.573147| mIoU_2d: 0.697115 | total_eval_time: 5.564849
+start epoch
+................................................................total epoch time : 7.111677646636963 seconds
+Epoch 251 training completed: total_loss: 0.719575 | total_rpn_loss: 0.671703
+mAP: 0.5379856537624375
+0.4: 0.620242846514763 0.3: 0.6701424023697532 0.2: 0.7446945343262562 0.1: 0.8337843045453135 0.01: 0.8607581099059087
+max mAP 0.597703881819888
+Epoch 251 evaluation completed: total_loss: 11.055027 | mIoU: 0.570199| mIoU_2d: 0.700272 | total_eval_time: 5.531921
+start epoch
+................................................................total epoch time : 7.1223838329315186 seconds
+Epoch 252 training completed: total_loss: 0.718879 | total_rpn_loss: 0.671641
+mAP: 0.5820041716995777
+0.4: 0.6601895595466488 0.3: 0.7166459075108486 0.2: 0.7759181010088645 0.1: 0.8406801793361139 0.01: 0.8659684948763157
+max mAP 0.597703881819888
+Epoch 252 evaluation completed: total_loss: 12.597631 | mIoU: 0.574496| mIoU_2d: 0.692297 | total_eval_time: 5.546224
+start epoch
+................................................................total epoch time : 7.080101490020752 seconds
+Epoch 253 training completed: total_loss: 0.723948 | total_rpn_loss: 0.672869
+mAP: 0.5352508958127299
+0.4: 0.6125886337011819 0.3: 0.658963963728462 0.2: 0.7301733914012564 0.1: 0.7932081975827725 0.01: 0.8395919077425485
+max mAP 0.597703881819888
+Epoch 253 evaluation completed: total_loss: 12.060605 | mIoU: 0.554304| mIoU_2d: 0.683025 | total_eval_time: 5.651772
+start epoch
+................................................................total epoch time : 7.169744253158569 seconds
+Epoch 254 training completed: total_loss: 0.716191 | total_rpn_loss: 0.668938
+mAP: 0.531195520030793
+0.4: 0.6220885626844579 0.3: 0.7092789305823426 0.2: 0.7755827334886328 0.1: 0.8449134506838467 0.01: 0.8673504533269666
+max mAP 0.597703881819888
+Epoch 254 evaluation completed: total_loss: 11.231842 | mIoU: 0.573530| mIoU_2d: 0.699275 | total_eval_time: 5.543507
+start epoch
+................................................................total epoch time : 7.17701268196106 seconds
+Epoch 255 training completed: total_loss: 0.718349 | total_rpn_loss: 0.669416
+mAP: 0.5869060119548615
+0.4: 0.6626685026582462 0.3: 0.7173060097541789 0.2: 0.7891935233789533 0.1: 0.8368194607791783 0.01: 0.8827300919560187
+max mAP 0.597703881819888
+Epoch 255 evaluation completed: total_loss: 12.214089 | mIoU: 0.580670| mIoU_2d: 0.700383 | total_eval_time: 5.569991
+start epoch
+................................................................total epoch time : 7.144546031951904 seconds
+Epoch 256 training completed: total_loss: 0.719472 | total_rpn_loss: 0.671420
+mAP: 0.5291534475952208
+0.4: 0.6087650993107474 0.3: 0.6773938388437618 0.2: 0.7483074108656786 0.1: 0.803681685687134 0.01: 0.8354236536651023
+max mAP 0.597703881819888
+Epoch 256 evaluation completed: total_loss: 11.479391 | mIoU: 0.562460| mIoU_2d: 0.687189 | total_eval_time: 5.559229
+start epoch
+................................................................total epoch time : 7.129114151000977 seconds
+Epoch 257 training completed: total_loss: 0.718676 | total_rpn_loss: 0.670947
+mAP: 0.5807756624996326
+0.4: 0.642167300049455 0.3: 0.7051667739319151 0.2: 0.7648599507313669 0.1: 0.8404387013821155 0.01: 0.862034687273506
+max mAP 0.597703881819888
+Epoch 257 evaluation completed: total_loss: 10.924507 | mIoU: 0.574480| mIoU_2d: 0.706319 | total_eval_time: 5.561416
+start epoch
+................................................................total epoch time : 7.152298927307129 seconds
+Epoch 258 training completed: total_loss: 0.712884 | total_rpn_loss: 0.667745
+mAP: 0.5440765693906439
+0.4: 0.6142877602307188 0.3: 0.6941049679518536 0.2: 0.7665486067263775 0.1: 0.8260938599057445 0.01: 0.8674235984321272
+max mAP 0.597703881819888
+Epoch 258 evaluation completed: total_loss: 11.664605 | mIoU: 0.571544| mIoU_2d: 0.690619 | total_eval_time: 5.580176
+start epoch
+................................................................total epoch time : 7.159535884857178 seconds
+Epoch 259 training completed: total_loss: 0.717440 | total_rpn_loss: 0.670816
+mAP: 0.5161854516731644
+0.4: 0.5957611191391357 0.3: 0.6421360323299288 0.2: 0.7222842791219002 0.1: 0.7846708561552574 0.01: 0.8317824492331725
+max mAP 0.597703881819888
+Epoch 259 evaluation completed: total_loss: 11.217990 | mIoU: 0.574351| mIoU_2d: 0.696317 | total_eval_time: 5.560134
+start epoch
+................................................................total epoch time : 7.183568000793457 seconds
+Epoch 260 training completed: total_loss: 0.715964 | total_rpn_loss: 0.670553
+mAP: 0.595964336777474
+0.4: 0.6473376317364199 0.3: 0.7099047380977691 0.2: 0.7737754493935497 0.1: 0.8419860772071485 0.01: 0.8842817420584093
+max mAP 0.597703881819888
+Epoch 260 evaluation completed: total_loss: 10.687636 | mIoU: 0.586130| mIoU_2d: 0.712124 | total_eval_time: 5.558213
+start epoch
+................................................................total epoch time : 7.2763776779174805 seconds
+Epoch 261 training completed: total_loss: 0.716000 | total_rpn_loss: 0.669026
+mAP: 0.5105460754104113
+0.4: 0.6063141698209997 0.3: 0.6807120470187039 0.2: 0.7692502089660257 0.1: 0.8268085618807801 0.01: 0.8657975910825977
+max mAP 0.597703881819888
+Epoch 261 evaluation completed: total_loss: 11.080370 | mIoU: 0.571993| mIoU_2d: 0.697955 | total_eval_time: 5.715749
+start epoch
+................................................................total epoch time : 7.256232023239136 seconds
+Epoch 262 training completed: total_loss: 0.716948 | total_rpn_loss: 0.668575
+mAP: 0.5086927297258829
+0.4: 0.5868945699954462 0.3: 0.6600673258500915 0.2: 0.7666320120085451 0.1: 0.8173467911971265 0.01: 0.8491894419638422
+max mAP 0.597703881819888
+Epoch 262 evaluation completed: total_loss: 11.724776 | mIoU: 0.562194| mIoU_2d: 0.685824 | total_eval_time: 5.599693
+start epoch
+................................................................total epoch time : 7.237606763839722 seconds
+Epoch 263 training completed: total_loss: 0.719326 | total_rpn_loss: 0.668999
+mAP: 0.45655371133819617
+0.4: 0.5923136654048478 0.3: 0.6487395579704018 0.2: 0.717691537367892 0.1: 0.796524447988555 0.01: 0.8466552996236765
+max mAP 0.597703881819888
+Epoch 263 evaluation completed: total_loss: 11.171309 | mIoU: 0.554630| mIoU_2d: 0.675651 | total_eval_time: 5.567211
+start epoch
+................................................................total epoch time : 7.246467113494873 seconds
+Epoch 264 training completed: total_loss: 0.715820 | total_rpn_loss: 0.669461
+mAP: 0.5403682212532656
+0.4: 0.6284740118307516 0.3: 0.670554634756557 0.2: 0.7547927435106784 0.1: 0.8016405123050802 0.01: 0.849324547703949
+max mAP 0.597703881819888
+Epoch 264 evaluation completed: total_loss: 11.580728 | mIoU: 0.574968| mIoU_2d: 0.696675 | total_eval_time: 5.592786
+start epoch
+................................................................total epoch time : 7.254433631896973 seconds
+Epoch 265 training completed: total_loss: 0.713094 | total_rpn_loss: 0.668538
+mAP: 0.496064203308418
+0.4: 0.6190629050689216 0.3: 0.7011699414365999 0.2: 0.7754560858201796 0.1: 0.8084675445658097 0.01: 0.8446105105945697
+max mAP 0.597703881819888
+Epoch 265 evaluation completed: total_loss: 11.050276 | mIoU: 0.557706| mIoU_2d: 0.682695 | total_eval_time: 5.581869
+start epoch
+................................................................total epoch time : 7.24875807762146 seconds
+Epoch 266 training completed: total_loss: 0.716191 | total_rpn_loss: 0.669902
+mAP: 0.5721213077318845
+0.4: 0.6472446126036684 0.3: 0.6825771037177983 0.2: 0.7512106215463015 0.1: 0.8240923211687616 0.01: 0.8610139512890195
+max mAP 0.597703881819888
+Epoch 266 evaluation completed: total_loss: 12.193795 | mIoU: 0.582452| mIoU_2d: 0.702302 | total_eval_time: 5.641425
+start epoch
+................................................................total epoch time : 7.1551196575164795 seconds
+Epoch 267 training completed: total_loss: 0.710980 | total_rpn_loss: 0.667034
+mAP: 0.5573192761363293
+0.4: 0.6230324251240179 0.3: 0.6779340460356901 0.2: 0.7796881578413815 0.1: 0.8310695671820307 0.01: 0.8553321500707065
+max mAP 0.597703881819888
+Epoch 267 evaluation completed: total_loss: 11.951440 | mIoU: 0.565898| mIoU_2d: 0.688381 | total_eval_time: 5.523616
+start epoch
+................................................................total epoch time : 7.145087003707886 seconds
+Epoch 268 training completed: total_loss: 0.716018 | total_rpn_loss: 0.668735
+mAP: 0.5218515982853328
+0.4: 0.6241090610707615 0.3: 0.698802869388255 0.2: 0.7614389226891796 0.1: 0.8210434499834074 0.01: 0.8705597651549221
+max mAP 0.597703881819888
+Epoch 268 evaluation completed: total_loss: 10.925761 | mIoU: 0.571396| mIoU_2d: 0.690623 | total_eval_time: 5.518535
+start epoch
+................................................................total epoch time : 7.120514631271362 seconds
+Epoch 269 training completed: total_loss: 0.715122 | total_rpn_loss: 0.671050
+mAP: 0.40926326588679035
+0.4: 0.5231186675083213 0.3: 0.6056815505518645 0.2: 0.7367937408406829 0.1: 0.7946403809178209 0.01: 0.8327608260607999
+max mAP 0.597703881819888
+Epoch 269 evaluation completed: total_loss: 11.024419 | mIoU: 0.548299| mIoU_2d: 0.668623 | total_eval_time: 5.513473
+start epoch
+................................................................total epoch time : 7.11565375328064 seconds
+Epoch 270 training completed: total_loss: 0.713760 | total_rpn_loss: 0.669434
+mAP: 0.5425562746967045
+0.4: 0.625484313658568 0.3: 0.6909227177829497 0.2: 0.7786532376080447 0.1: 0.8484399277823415 0.01: 0.8906562938755913
+max mAP 0.597703881819888
+Epoch 270 evaluation completed: total_loss: 12.546795 | mIoU: 0.570095| mIoU_2d: 0.695040 | total_eval_time: 5.576675
+start epoch
+................................................................total epoch time : 7.176121950149536 seconds
+Epoch 271 training completed: total_loss: 0.715408 | total_rpn_loss: 0.668249
+mAP: 0.5703723005780785
+0.4: 0.6585121419683251 0.3: 0.7165273254246122 0.2: 0.7805284952356217 0.1: 0.8388674055506724 0.01: 0.8831077082781504
+max mAP 0.597703881819888
+Epoch 271 evaluation completed: total_loss: 11.401328 | mIoU: 0.567819| mIoU_2d: 0.689931 | total_eval_time: 5.557395
+start epoch
+................................................................total epoch time : 7.097794532775879 seconds
+Epoch 272 training completed: total_loss: 0.716935 | total_rpn_loss: 0.670116
+mAP: 0.4780861890548853
+0.4: 0.589403671811297 0.3: 0.65115000403672 0.2: 0.7476388470435913 0.1: 0.808470884773799 0.01: 0.8645787423310425
+max mAP 0.597703881819888
+Epoch 272 evaluation completed: total_loss: 11.087519 | mIoU: 0.553062| mIoU_2d: 0.680120 | total_eval_time: 5.618335
+start epoch
+................................................................total epoch time : 6.903515577316284 seconds
+Epoch 273 training completed: total_loss: 0.717598 | total_rpn_loss: 0.670942
+mAP: 0.5133320464139253
+0.4: 0.5898276181531265 0.3: 0.6554742887110673 0.2: 0.7739978186954448 0.1: 0.8378577666608226 0.01: 0.8847872930687835
+max mAP 0.597703881819888
+Epoch 273 evaluation completed: total_loss: 12.073370 | mIoU: 0.586962| mIoU_2d: 0.709261 | total_eval_time: 5.505184
+start epoch
+................................................................total epoch time : 7.046760320663452 seconds
+Epoch 274 training completed: total_loss: 0.715598 | total_rpn_loss: 0.667820
+mAP: 0.5141251193099501
+0.4: 0.6088420607812107 0.3: 0.6798657238360929 0.2: 0.7743577079750553 0.1: 0.840738077988025 0.01: 0.8641313335261177
+max mAP 0.597703881819888
+Epoch 274 evaluation completed: total_loss: 12.274931 | mIoU: 0.571144| mIoU_2d: 0.689487 | total_eval_time: 5.543385
+start epoch
+................................................................total epoch time : 7.022258043289185 seconds
+Epoch 275 training completed: total_loss: 0.717341 | total_rpn_loss: 0.669400
+mAP: 0.5378060974575057
+0.4: 0.6384027854788591 0.3: 0.6884373473638042 0.2: 0.7717741054179575 0.1: 0.8322633071926767 0.01: 0.8691898598094651
+max mAP 0.597703881819888
+Epoch 275 evaluation completed: total_loss: 11.227083 | mIoU: 0.561015| mIoU_2d: 0.684239 | total_eval_time: 5.466497
+start epoch
+................................................................total epoch time : 7.0171496868133545 seconds
+Epoch 276 training completed: total_loss: 0.717599 | total_rpn_loss: 0.670320
+mAP: 0.5781291183438149
+0.4: 0.6438339510062321 0.3: 0.6899273720832235 0.2: 0.7564963310076017 0.1: 0.8099521577136759 0.01: 0.8620369049058316
+max mAP 0.597703881819888
+Epoch 276 evaluation completed: total_loss: 11.309431 | mIoU: 0.573538| mIoU_2d: 0.704718 | total_eval_time: 5.506763
+start epoch
+................................................................total epoch time : 7.07621955871582 seconds
+Epoch 277 training completed: total_loss: 0.717789 | total_rpn_loss: 0.670597
+mAP: 0.5077044493676132
+0.4: 0.6104844029939758 0.3: 0.6564523078719476 0.2: 0.7306220203700634 0.1: 0.8145347090057479 0.01: 0.8531423834923105
+max mAP 0.597703881819888
+Epoch 277 evaluation completed: total_loss: 11.913631 | mIoU: 0.568008| mIoU_2d: 0.687287 | total_eval_time: 5.510832
+start epoch
+................................................................total epoch time : 7.01934289932251 seconds
+Epoch 278 training completed: total_loss: 0.715588 | total_rpn_loss: 0.667829
+mAP: 0.5454387984170679
+0.4: 0.6448092560295072 0.3: 0.6993363127168932 0.2: 0.7818347972911716 0.1: 0.8318203574947421 0.01: 0.86376038387443
+max mAP 0.597703881819888
+Epoch 278 evaluation completed: total_loss: 12.386664 | mIoU: 0.572258| mIoU_2d: 0.694245 | total_eval_time: 5.538690
+start epoch
+................................................................total epoch time : 7.122570276260376 seconds
+Epoch 279 training completed: total_loss: 0.716953 | total_rpn_loss: 0.667957
+mAP: 0.5003467264129033
+0.4: 0.6028680708086624 0.3: 0.6983454428407933 0.2: 0.7996030976197998 0.1: 0.858095225815829 0.01: 0.8848813806952545
+max mAP 0.597703881819888
+Epoch 279 evaluation completed: total_loss: 12.142562 | mIoU: 0.569689| mIoU_2d: 0.694462 | total_eval_time: 5.560444
+start epoch
+................................................................total epoch time : 7.236653566360474 seconds
+Epoch 280 training completed: total_loss: 0.717331 | total_rpn_loss: 0.667896
+mAP: 0.5582718601707125
+0.4: 0.624569911433988 0.3: 0.687086910812505 0.2: 0.7643631916655267 0.1: 0.8390875673173825 0.01: 0.8735194321159152
+max mAP 0.597703881819888
+Epoch 280 evaluation completed: total_loss: 10.838994 | mIoU: 0.583078| mIoU_2d: 0.705662 | total_eval_time: 5.608456
+start epoch
+................................................................total epoch time : 7.256941795349121 seconds
+Epoch 281 training completed: total_loss: 0.715855 | total_rpn_loss: 0.669137
+mAP: 0.5083170314744806
+0.4: 0.6305073413929524 0.3: 0.7124848896422001 0.2: 0.7603464302708389 0.1: 0.8207142601460642 0.01: 0.8743048188486051
+max mAP 0.597703881819888
+Epoch 281 evaluation completed: total_loss: 12.050617 | mIoU: 0.574219| mIoU_2d: 0.694131 | total_eval_time: 5.587830
+start epoch
+................................................................total epoch time : 7.158106327056885 seconds
+Epoch 282 training completed: total_loss: 0.716068 | total_rpn_loss: 0.670534
+mAP: 0.5759468482932331
+0.4: 0.6544455158260014 0.3: 0.720687890775949 0.2: 0.7748994516672776 0.1: 0.8431353588522359 0.01: 0.8644643801610813
+max mAP 0.597703881819888
+Epoch 282 evaluation completed: total_loss: 11.740379 | mIoU: 0.569177| mIoU_2d: 0.692199 | total_eval_time: 5.545832
+start epoch
+................................................................total epoch time : 7.103687763214111 seconds
+Epoch 283 training completed: total_loss: 0.715450 | total_rpn_loss: 0.669797
+mAP: 0.5421139525879068
+0.4: 0.6343886922509155 0.3: 0.6964226389727175 0.2: 0.7704334932403989 0.1: 0.8379112356750136 0.01: 0.8577513381762847
+max mAP 0.597703881819888
+Epoch 283 evaluation completed: total_loss: 11.334386 | mIoU: 0.570673| mIoU_2d: 0.702987 | total_eval_time: 5.576092
+start epoch
+................................................................total epoch time : 7.207682132720947 seconds
+Epoch 284 training completed: total_loss: 0.709312 | total_rpn_loss: 0.666167
+mAP: 0.6055907366264763
+0.4: 0.6614519429655743 0.3: 0.7065346825679328 0.2: 0.7950259108240133 0.1: 0.8398227232072834 0.01: 0.8820005271751497
+max mAP 0.597703881819888
+Epoch: 283 Recall: 1.0
+Epoch 284 evaluation completed: total_loss: 11.662146 | mIoU: 0.573512| mIoU_2d: 0.693498 | total_eval_time: 5.558120
+start epoch
+................................................................total epoch time : 7.203479051589966 seconds
+Epoch 285 training completed: total_loss: 0.714996 | total_rpn_loss: 0.669490
+mAP: 0.5683466555267559
+0.4: 0.6677265184034344 0.3: 0.7291947931696987 0.2: 0.7908070287643678 0.1: 0.8278436038396524 0.01: 0.8634317950910383
+max mAP 0.6055907366264763
+Epoch 285 evaluation completed: total_loss: 12.515218 | mIoU: 0.583806| mIoU_2d: 0.710117 | total_eval_time: 5.657009
+start epoch
+................................................................total epoch time : 7.057560443878174 seconds
+Epoch 286 training completed: total_loss: 0.710462 | total_rpn_loss: 0.666874
+mAP: 0.5161317653957198
+0.4: 0.6331509699195663 0.3: 0.6858693959522814 0.2: 0.7748342502422398 0.1: 0.8224023873260355 0.01: 0.8652108003791704
+max mAP 0.6055907366264763
+Epoch 286 evaluation completed: total_loss: 10.803146 | mIoU: 0.570754| mIoU_2d: 0.696067 | total_eval_time: 5.506104
+start epoch
+................................................................total epoch time : 6.982253551483154 seconds
+Epoch 287 training completed: total_loss: 0.710171 | total_rpn_loss: 0.666835
+mAP: 0.5348639074757668
+0.4: 0.6134019712001467 0.3: 0.6666640802225674 0.2: 0.7525710443994855 0.1: 0.8405256216561896 0.01: 0.8832702568580018
+max mAP 0.6055907366264763
+Epoch 287 evaluation completed: total_loss: 11.301072 | mIoU: 0.578359| mIoU_2d: 0.697381 | total_eval_time: 5.515518
+start epoch
+................................................................total epoch time : 6.922992706298828 seconds
+Epoch 288 training completed: total_loss: 0.712166 | total_rpn_loss: 0.666800
+mAP: 0.6057614407634874
+0.4: 0.670737878984436 0.3: 0.7085412006636452 0.2: 0.7748203813327909 0.1: 0.8167354137003197 0.01: 0.8518985567741132
+max mAP 0.6055907366264763
+Epoch: 287 Recall: 0.8813559322033898
+Epoch 288 evaluation completed: total_loss: 10.996362 | mIoU: 0.583102| mIoU_2d: 0.706891 | total_eval_time: 5.472475
+start epoch
+................................................................total epoch time : 6.933507680892944 seconds
+Epoch 289 training completed: total_loss: 0.711808 | total_rpn_loss: 0.667335
+mAP: 0.5210973600783624
+0.4: 0.6176231700432556 0.3: 0.6670464426428249 0.2: 0.7577118068964815 0.1: 0.8275657626641054 0.01: 0.8735855058547414
+max mAP 0.6057614407634874
+Epoch 289 evaluation completed: total_loss: 12.341781 | mIoU: 0.577448| mIoU_2d: 0.698444 | total_eval_time: 5.485625
+start epoch
+................................................................total epoch time : 6.906060218811035 seconds
+Epoch 290 training completed: total_loss: 0.710668 | total_rpn_loss: 0.666859
+mAP: 0.5426676199672982
+0.4: 0.6334549062346817 0.3: 0.690872391142017 0.2: 0.7814208791790336 0.1: 0.8197392730420825 0.01: 0.859220676215019
+max mAP 0.6057614407634874
+Epoch 290 evaluation completed: total_loss: 12.031633 | mIoU: 0.569230| mIoU_2d: 0.692207 | total_eval_time: 5.479945
+start epoch
+................................................................total epoch time : 6.89987325668335 seconds
+Epoch 291 training completed: total_loss: 0.712910 | total_rpn_loss: 0.667018
+mAP: 0.5658795999143187
+0.4: 0.6477101073269133 0.3: 0.7154993252100865 0.2: 0.7885205646851225 0.1: 0.8343719492422315 0.01: 0.8738860927074056
+max mAP 0.6057614407634874
+Epoch 291 evaluation completed: total_loss: 11.717566 | mIoU: 0.575386| mIoU_2d: 0.700735 | total_eval_time: 5.515398
+start epoch
+................................................................total epoch time : 7.15392279624939 seconds
+Epoch 292 training completed: total_loss: 0.710649 | total_rpn_loss: 0.665080
+mAP: 0.5908797751603612
+0.4: 0.6730542785061706 0.3: 0.7174593243918137 0.2: 0.7799065724760327 0.1: 0.8247425306587138 0.01: 0.8556912960526373
+max mAP 0.6057614407634874
+Epoch 292 evaluation completed: total_loss: 11.771439 | mIoU: 0.576071| mIoU_2d: 0.696295 | total_eval_time: 5.581637
+start epoch
+................................................................total epoch time : 7.135562181472778 seconds
+Epoch 293 training completed: total_loss: 0.712629 | total_rpn_loss: 0.665526
+mAP: 0.5570089797427319
+0.4: 0.6450403877282823 0.3: 0.6900349702646977 0.2: 0.7662382727589329 0.1: 0.818759851927186 0.01: 0.8574268365508563
+max mAP 0.6057614407634874
+Epoch 293 evaluation completed: total_loss: 12.154389 | mIoU: 0.588416| mIoU_2d: 0.701924 | total_eval_time: 5.745792
+start epoch
+................................................................total epoch time : 7.1251866817474365 seconds
+Epoch 294 training completed: total_loss: 0.712138 | total_rpn_loss: 0.665661
+mAP: 0.5595557829027071
+0.4: 0.6472799184848548 0.3: 0.7021731800548116 0.2: 0.7612914587103496 0.1: 0.813379478783247 0.01: 0.8449370868265971
+max mAP 0.6057614407634874
+Epoch 294 evaluation completed: total_loss: 11.754134 | mIoU: 0.571451| mIoU_2d: 0.693849 | total_eval_time: 5.598199
+start epoch
+................................................................total epoch time : 7.062664985656738 seconds
+Epoch 295 training completed: total_loss: 0.710088 | total_rpn_loss: 0.665738
+mAP: 0.6201375710523157
+0.4: 0.6921678653970381 0.3: 0.7367241848995395 0.2: 0.8101748377776269 0.1: 0.8574294794885277 0.01: 0.8933976058052512
+max mAP 0.6057614407634874
+Epoch: 294 Recall: 1.0
+Epoch 295 evaluation completed: total_loss: 11.206848 | mIoU: 0.587179| mIoU_2d: 0.706653 | total_eval_time: 5.470673
+start epoch
+................................................................total epoch time : 6.927095651626587 seconds
+Epoch 296 training completed: total_loss: 0.712201 | total_rpn_loss: 0.665969
+mAP: 0.5339266893067879
+0.4: 0.6146709063542665 0.3: 0.6669613746696711 0.2: 0.7584834265434511 0.1: 0.826196142563505 0.01: 0.8687748467575154
+max mAP 0.6201375710523157
+Epoch 296 evaluation completed: total_loss: 10.837901 | mIoU: 0.582892| mIoU_2d: 0.708458 | total_eval_time: 5.464912
+start epoch
+................................................................total epoch time : 7.0495805740356445 seconds
+Epoch 297 training completed: total_loss: 0.711709 | total_rpn_loss: 0.666537
+mAP: 0.5082786572042982
+0.4: 0.6161137169369493 0.3: 0.6812917238811018 0.2: 0.7773957703820499 0.1: 0.8435429458020797 0.01: 0.8745700978196048
+max mAP 0.6201375710523157
+Epoch 297 evaluation completed: total_loss: 12.571390 | mIoU: 0.577922| mIoU_2d: 0.700118 | total_eval_time: 5.501710
+start epoch
+................................................................total epoch time : 7.06641411781311 seconds
+Epoch 298 training completed: total_loss: 0.709829 | total_rpn_loss: 0.664995
+mAP: 0.5686136976833052
+0.4: 0.6517095407822587 0.3: 0.7067810122899959 0.2: 0.7611274844383967 0.1: 0.8143907319192587 0.01: 0.8569061305423578
+max mAP 0.6201375710523157
+Epoch 298 evaluation completed: total_loss: 12.657238 | mIoU: 0.563674| mIoU_2d: 0.689198 | total_eval_time: 5.576728
+start epoch
+................................................................total epoch time : 7.160691022872925 seconds
+Epoch 299 training completed: total_loss: 0.715802 | total_rpn_loss: 0.666297
+mAP: 0.5953643406600986
+0.4: 0.6697468896136526 0.3: 0.7173233090858602 0.2: 0.7811446238618339 0.1: 0.8360080686858516 0.01: 0.8759611978788976
+max mAP 0.6201375710523157
+Epoch 299 evaluation completed: total_loss: 11.552425 | mIoU: 0.581276| mIoU_2d: 0.701208 | total_eval_time: 5.640910
+start epoch
+................................................................total epoch time : 7.159907341003418 seconds
+Epoch 300 training completed: total_loss: 0.709557 | total_rpn_loss: 0.663830
+mAP: 0.5987754737643971
+0.4: 0.6725488648174198 0.3: 0.7141485037343811 0.2: 0.7811562734904051 0.1: 0.8187415088914805 0.01: 0.8438177083263514
+max mAP 0.6201375710523157
+Epoch 300 evaluation completed: total_loss: 13.104591 | mIoU: 0.588961| mIoU_2d: 0.715400 | total_eval_time: 5.545353
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO: Comet.ml Experiment Summary
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO:   Data:
+COMET INFO:     display_summary_level : 1
+COMET INFO:     name                  : robust_candy_9091
+COMET INFO:     url                   : https://www.comet.com/jysong/general/dc222dd4010e4493b51c84ff2ec3527f
+COMET INFO:   Metrics [count] (min, max):
+COMET INFO:     Loss/train [300]     : (0.7093120883068731, 1.3123812786033076)
+COMET INFO:     Loss/val [300]       : (10.2158180636299, 13.884188186815557)
+COMET INFO:     TP/val [300]         : (466, 517)
+COMET INFO:     loss [7441]          : (0.6345021724700928, 2.1635525226593018)
+COMET INFO:     mAP/val [300]        : (0.13294621194881023, 0.6201375710523157)
+COMET INFO:     mAP_001/val [300]    : (0.6131396803959004, 0.8933976058052512)
+COMET INFO:     mAP_01/val [300]     : (0.48831919420424424, 0.858095225815829)
+COMET INFO:     mIoU_2d/val [300]    : (0.45288416743278503, 0.7153996229171753)
+COMET INFO:     mis_detect/val [300] : (0.049632352941176516, 0.14338235294117652)
+COMET INFO:   Uploads:
+COMET INFO:     asset                        : 1 (493 bytes)
+COMET INFO:     conda-environment-definition : 1
+COMET INFO:     conda-info                   : 1
+COMET INFO:     conda-specification          : 1
+COMET INFO:     environment details          : 1
+COMET INFO:     filename                     : 1
+COMET INFO:     git metadata                 : 1
+COMET INFO:     git-patch (uncompressed)     : 1 (13.39 KB)
+COMET INFO:     installed packages           : 1
+COMET INFO:     model graph                  : 1
+COMET INFO:     os packages                  : 1
+COMET INFO:     source_code                  : 1 (21.70 KB)
+COMET INFO: 
+COMET INFO: Please wait for metadata to finish uploading (timeout is 3600 seconds)
+COMET INFO: Uploading 41 metrics, params and output messages
