@@ -33,14 +33,32 @@ from config import Config
 
 
 def rotate_points(points, theta):
-    '''theta is in radians
-       points shape: (3,n)
-    '''
+    """
+    Rotate points by a given angle theta (in radians).
+    
+    Args:
+        points (torch.Tensor): Tensor of shape (3, n) representing the points to rotate.
+        theta (float): Angle by which to rotate the points (in radians).
+    
+    Returns:
+        torch.Tensor: Rotated points as a tensor of shape (3, n).
+    """
     assert points.shape[0]==3
     return torch.matmul(torch.tensor(euler.euler2mat(0,0,0)).cuda().float(),points)
 
 
 def get_bbox_corners(dim,params,theta=0):
+    """
+    Compute the corners of a bounding box given its dimensions, parameters, and rotation angle.
+    
+    Args:
+        dim (list): List [d_x, d_y, d_z] representing the dimensions of the bounding box.
+        params (list): List of parameters for the bounding box.
+        theta (float, optional): Rotation angle (in radians). Defaults to 0.
+    
+    Returns:
+        torch.Tensor: Tensor containing the coordinates of the bounding box corners.
+    """
     [d_x,d_y,d_z] = dim
     #rot = np.array([[np.cos(theta), np.sin(theta), 0], [-np.sin(theta), np.cos(theta), 0], [0, 0, 1]])
     rot = torch.tensor([[math.cos(theta), 0, math.sin(theta)], [0 ,1 ,0], [-math.sin(theta), 0, math.cos(theta)]]).cuda()
@@ -55,7 +73,16 @@ def get_bbox_corners(dim,params,theta=0):
 def get_points_in_bbox(corners,pts): #, l, b, h, center, theta=0
     #todo: if want to see rotated bbox points rotate the points first..rn implemented for zero yaw angle
     # assert isinstance(pts, np.ndarray)
-
+    """
+    Get points within a bounding box.
+    
+    Args:
+        corners (torch.Tensor): Tensor of shape (8, 3) representing the corners of the bounding box.
+        pts (torch.Tensor): Tensor of points to check.
+    
+    Returns:
+        torch.Tensor, torch.Tensor: Points within the bounding box and a mask tensor.
+    """
 
     mask_x = torch.cuda.ByteTensor(pts[:,0]<= max(corners[0,0], corners[2,0])) & torch.cuda.ByteTensor(pts[:,0]>= min(corners[0,0], corners[2,0]))
     mask_y = torch.cuda.ByteTensor(pts[:,1]<= max(corners[0,1], corners[4,1])) & torch.cuda.ByteTensor(pts[:,1]>= min(corners[0,1], corners[4,1]))
@@ -118,8 +145,10 @@ def polygon_clip(subjectPolygon, clipPolygon):
 
 def convex_hull_intersection(p1, p2):
     """ Compute area of two convex hull's intersection area.
-        p1,p2 are a list of (x,y) tuples of hull vertices.
-        return a list of (x,y) for the intersection and its volume
+    Args:
+        p1, p2: a list of (x,y) tuples of hull vertices.
+    Returns:
+        a list of (x,y) for the intersection and its volume.
     """
     inter_p = polygon_clip(p1,p2)
     if inter_p is not None:
@@ -129,7 +158,12 @@ def convex_hull_intersection(p1, p2):
         return None, 0.0  
 
 def box3d_vol(corners):
-    ''' corners: (8,3) no assumption on axis direction '''
+    """ Compute the volume of a 3D bounding box.
+    Args:
+        corners (torch.Tensor): Tensor of shape (8, 3). No assumption on axis direction
+    Returns:
+        float: Volume of the bounding box.
+    """
     a = math.sqrt(torch.sum((corners[0,:] - corners[1,:])**2))
     b = math.sqrt(torch.sum((corners[1,:] - corners[2,:])**2))
     c = math.sqrt(torch.sum((corners[0,:] - corners[4,:])**2))
@@ -169,6 +203,15 @@ def box3d_iou(corners1, corners2):
 
 
 def non_max_suppression(boxes, confidence_scores, nBox, overlapThresh=0.7):
+    """ Perform non-maximum suppression to filter out overlapping bounding boxes.
+    Args:
+        boxes (torch.Tensor): Tensor of bounding boxes.
+        confidence_scores (torch.Tensor): Tensor of confidence scores.
+        nBox (int): Number of boxes to keep.
+        overlapThresh (float, optional): Overlap threshold for suppression. Defaults to 0.7.
+    Returns:
+        torch.Tensor, torch.Tensor: Filtered bounding boxes and their indices.
+    """
    # if there are no boxes, return an empty list
     if len(boxes) == 0:
         print("no boxes input to nms calculation")
@@ -231,11 +274,12 @@ def non_max_suppression(boxes, confidence_scores, nBox, overlapThresh=0.7):
 
 if __name__ == '__main__':
 
-
+    # Initialize the experiment with Comet.ml for tracking
     experiment = Experiment(api_key="dXQNQCU6HrhcPCUxPIhijEUJG",
                         project_name="general", workspace="jysong")
 
-    #debt read ground truth labels
+    # debt read ground truth labels
+    # Initialize the model, optimizer, and configurations
     classifier = Refinement(k=7)
 
     count = 0
@@ -248,7 +292,7 @@ if __name__ == '__main__':
     print("Total parameters:",sum(p.numel() for p in classifier.parameters()))
     print("Total trainable parameters:",sum(p.numel() for p in classifier.parameters() if p.requires_grad))
 
-
+    # Load datasets and create data loaders
     radar_train_dataset = Radardata(256,False)
     radar_validation_dataset = Radardata(256,True)
     train_dataloader = DataLoader(radar_train_dataset, batch_size=config.batchsize, shuffle=True, drop_last=True, num_workers=config.workers)
