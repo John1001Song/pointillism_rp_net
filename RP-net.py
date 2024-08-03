@@ -296,8 +296,14 @@ if __name__ == '__main__':
     radar_train_dataset = Radardata(256,False)
     radar_validation_dataset = Radardata(256,True)
     train_dataloader = DataLoader(radar_train_dataset, batch_size=config.batchsize, shuffle=True, drop_last=True, num_workers=config.workers)
+    print(f"train_dataloader length")
+    print(len(train_dataloader))
     validation_dataloader = DataLoader(radar_validation_dataset, batch_size=config.batchsize_eval, shuffle=False, drop_last=True, num_workers=config.workers)
+    print(f"validation_dataloader length")
+    print(len(validation_dataloader))
 
+    # easy test input purpose, so use train data as validation
+    validation_dataloader = train_dataloader
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = torch.device('cpu')
@@ -351,8 +357,6 @@ if __name__ == '__main__':
             lbls = lbls.to(device)
             optimizer.zero_grad()
             classifier = classifier.train()
-            
-
 
             x, confidence, select_anchor_box_batch_select, select_box_gt_label_idx_batch_select, pred_labels, labels_binary_iou, labels_binary_iou_select = classifier(points_new, lbls, True, epoch)
 
@@ -427,7 +431,7 @@ if __name__ == '__main__':
         nms_idx_save = []
         
         for batch, data in enumerate(validation_dataloader):
-            
+
             points, lbls = data["points"], data["labels"]
             points_new = points[:,:,0:config.nchannels]
             lbls = np.array(lbls)
@@ -436,6 +440,9 @@ if __name__ == '__main__':
             #points= points[:,:,:100]
             points_new = torch.from_numpy(points_new).float()
             lbls = torch.from_numpy(lbls).float()
+            print(f'Batch {batch+1}:')
+            print(f'points_new shape: {points_new.shape}')
+            print(f'lbls shape: {lbls.shape}')
 
             # print(lbls.shape)
             points_new = points_new.to(device)#, lbls.to(device)
@@ -448,13 +455,19 @@ if __name__ == '__main__':
             # print("confidence: ",confidence)
             pred_labels = pred_labels.view(-1,2)
             labels_binary_iou = labels_binary_iou.view(-1)
-
+            print(f'pred_labels shape: {pred_labels.shape}')
+            print(f'labels_binary_iou shape: {labels_binary_iou.shape}')
+            
             #Order is different from previous IoU calc
             residual = x[0].clone().detach()
             final_anchor_boxes = select_anchor_box_batch_select[0]+residual
             # print(residual[0])
+            print(f'final_anchor_boxes shape: {final_anchor_boxes.shape}')
+
             iou3d_eval, iou2d_eval = iou3d_utils.boxes_iou3d_gpu(final_anchor_boxes,torch.index_select(lbls[0], 1, torch.LongTensor([3,4,5,1,0,2,6]).cuda()))
-            
+            print(f'iou3d_eval shape: {iou3d_eval.shape}')
+            print(f'iou2d_eval shape: {iou2d_eval.shape}')
+
             max_iou, max_iou_ind = torch.max(iou3d_eval,1)
             mIoU = torch.max(max_iou)
             max_iou_2d, max_iou_ind_2d = torch.max(iou2d_eval,1)
@@ -464,6 +477,10 @@ if __name__ == '__main__':
 
 
             final_boxes_bev = kitti_utils.boxes3d_to_bev_torch_orig(final_anchor_boxes)
+            print(f'confidence shape before view: {confidence.shape}')
+            confidence_reshaped = confidence.view(-1, 2)
+            print(f'confidence_reshaped shape: {confidence_reshaped.shape}')
+            
             final_idxs = iou3d_utils.nms_gpu(final_boxes_bev, confidence.view(6,2)[:,1], 0.1)
 
             if x.size()[0]!=0:
@@ -492,9 +509,22 @@ if __name__ == '__main__':
             # points_save.append(points.cpu().numpy().reshape(nPoints,-1))
             nms_idx_save.append(final_idxs.cpu().numpy())
         
+        # Debugging output for iou_2d_test shape
         iou_2d_test = np.array(iou2d_save)
-        max_iou_2d= np.amax(iou_2d_test,axis=1)
+        print(f'iou_2d_test shape: {iou_2d_test.shape}')
+        print(f'iou2d_save content: {iou2d_save}')
+
+        # max_iou_2d= np.amax(iou_2d_test,axis=1)
+        try:
+            max_iou_2d = np.amax(iou_2d_test, axis=1)
+        except np.AxisError as e:
+            print(f'Error: {e}')
+            print(f'iou_2d_test shape: {iou_2d_test.shape}')
+            # Handle the case where iou_2d_test does not have the expected shape
+            continue
        
+
+
         total = 0
         iou_thresh = 0.5
         
