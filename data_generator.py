@@ -59,14 +59,18 @@ count_rem = 0
 val_ind = []
 
 nPointsperFrame = 70
-minPointsperFrame = 20
+# minPointsperFrame = 20
+minPointsperFrame = 5
 
 for test_no in range(13, 61):
 
     test_dir = "./data/scene"+str(test_no)
+    print(f"current {test_dir}")
     radar_frames = glob.glob(test_dir + '/radar_0/*.csv')
+    print(f"radar_frames size {len(radar_frames)}")
 
     for i in range(len(radar_frames)):
+        print(f"cur radar frame {i}")
         try:
             
             radar_0 = pd.read_csv(test_dir+"/radar_0/"+(6-len(str(i)))*'0'+str(i)+'.csv', delimiter=',')
@@ -105,6 +109,7 @@ for test_no in range(13, 61):
 
         data_combined = np.concatenate((data_0, data_1), axis=0)
         data_combined[:, 0] = -data_combined[:, 0]
+        print(f"data_combined shape {data_combined.shape}")
 
         if data_combined.shape[0] >= nPointsperFrame:
 
@@ -142,15 +147,20 @@ for test_no in range(13, 61):
 
         count += 1
 
+
 inputs = np.array(inputs)
 input_labels = np.array(input_labels)
 test_nos = np.array(test_nos)
 frame_nos = np.array(frame_nos)
 
+print(f"inputs shape {inputs.shape}")
 indices = np.array(range(inputs.shape[0]))
 np.random.shuffle(indices)
+print(f"after shuffle indices shape {indices.shape}")
 
 a = np.array([i for i in range(len(indices)) if i not in val_ind])
+print(f"a {a}")
+
 train_indices = indices[a]
 
 if not os.path.exists("input_files"):
