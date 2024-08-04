@@ -50,10 +50,7 @@ Create an account on [comet.ml](https://www.comet.com) in order to monitor perfo
 
 ## Training RP-net
 1. Make sure you are in the **pointillism** directory.
-1. (Not required with docker) Run ```./build_and_install.sh```. This installs the necessary libraries required for training. 
-1.1 Before installing, replace keywords in these two cpp files: lib/utils/iou3d/src/iou3d.cpp and lib/utils/roipool3d/src/roipool3d.cpp 
-1.1.1 ".data" --> ".data_ptr"
-1.1.2 "AT_CHECK" --> "TORCH_CHECK"
+1. (Not required with docker) Run ```./build_and_install.sh```. This installs the necessary libraries required for training. Before installing, replace keywords in these two cpp files: lib/utils/iou3d/src/iou3d.cpp and lib/utils/roipool3d/src/roipool3d.cpp; ".data" --> ".data_ptr" and "AT_CHECK" --> "TORCH_CHECK".
 
 2. Run ```python3 RP-net.py``` to start training the model.
 
