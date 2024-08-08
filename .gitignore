@@ -7,3 +7,8 @@ pointnet2.egg-info
 *.npy
 *.pyc
 *.egg
+*.csv
+*.jpg
+*.pcd
+*.json
+*.pth
