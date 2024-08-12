@@ -1,26 +1,40 @@
-data = readtable("./test_data/left/frame0.csv")
+% Define the base directory where the subfolders are located
+baseDir = './test_data/';
 
-% Extract the X, Y, Z columns
-xyzPoints = data{:, {'X', 'Y', 'Z'}};
+% Define the subfolders to process
+subFolders = {'left', 'center', 'right'};
 
-% Display the first few rows of the extracted data (optional)
-disp(xyzPoints(1:5, :));
+% Loop through each subfolder
+for i = 1:length(subFolders)
+    currentSubFolder = fullfile(baseDir, subFolders{i});
+    
+    % List all CSV files in the current subfolder
+    csvFiles = dir(fullfile(currentSubFolder, '*.csv'));
+    
+    % Process each CSV file
+    for j = 1:length(csvFiles)
+        % Construct the full file path
+        csvFilePath = fullfile(currentSubFolder, csvFiles(j).name);
+        
+        % Load the CSV file into a table
+        data = readtable(csvFilePath);
+        
+        % Extract the X, Y, Z columns
+        xyzPoints = data{:, {'X', 'Y', 'Z'}};
+        
+        % Create a point cloud object from the X, Y, Z data
+        ptCloud = pointCloud(xyzPoints);
+        
+        % Construct the output file path with .pcd extension
+        [~, fileName, ~] = fileparts(csvFiles(j).name);
+        outputPCDPath = fullfile(currentSubFolder, [fileName, '.pcd']);
+        
+        % Save the point cloud to a PCD file
+        pcwrite(ptCloud, outputPCDPath);
+        
+        % Display a message indicating progress
+        fprintf('Processed %s and saved as %s\n', csvFiles(j).name, outputPCDPath);
+    end
+end
 
-% Create a point cloud object from the X, Y, Z data
-ptCloud = pointCloud(xyzPoints);
-
-% Inspect the properties of the point cloud object
-disp(ptCloud);
-
-% Display the point cloud
-pcshow(ptCloud);
-title('3D Point Cloud from Radar Data');
-xlabel('X');
-ylabel('Y');
-zlabel('Z');
-
-% Step 5: Save the point cloud to a PCD file
-output_pcd_path = './output.pcd';
-pcwrite(ptCloud, output_pcd_path);
-
-disp(['Point cloud saved to ', output_pcd_path]);
+disp('Processing complete.');
